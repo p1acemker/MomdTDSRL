@@ -1,0 +1,220 @@
+ABA,[NH3+][C@H](C)C([O-])=O
+ABB,[NH3+][C@@H](C([O-])=O)CCCNC(N)=N
+ABC,[NH3+][C@@H](C([O-])=O)CC(N)=O
+ABD,[NH3+][C@H](CC(O)=O)C([O-])=O
+ABE,[NH3+][C@@H](C([O-])=O)CCC(N)=O
+ABF,[NH3+][C@H](CS)C([O-])=O
+ABG,[O-]C([C@H]1CCC[NH2+]1)=O
+ABH,[NH3+][C@@]([H])(C([O-])=O)[C@@H](C)CC
+ABI,[NH3+][C@@H](C([O-])=O)CC(C)C
+ABJ,[NH3+][C@@H](C([O-])=O)CCCCN
+ABK,[NH3+][C@H](CCSC)C([O-])=O
+ABL,[NH3+][C@@H](C([O-])=O)CCC(O)=O
+ABM,[NH3+][C@H](CC1=CC=C(C=C1)O)C([O-])=O
+ABN,[NH3+][C@@H](C([O-])=O)C(C)C
+ABO,[NH3+][C@@H](C([O-])=O)CO
+ABP,[NH3+][C@@]([H])(C([O-])=O)[C@H](O)C
+ABQ,[NH3+][C@H](CC1=CNC2=C1C=CC=C2)C([O-])=O
+ABR,[NH3+][C@H](CC1=CN=CN1)C([O-])=O
+ABS,[NH3+][C@H](CC1=CC=CC=C1)C([O-])=O
+ACA,[O-]C([C@@H]([NH3+])CCC1=CC=CC=C1)=O
+ACB,[O-]C([C@@H]([NH3+])C(C1=CC=CC=C1)=O)=O
+ACC,O=C([O-])[C@H]([C@H](C1=CC=CC=C1)C)[NH3+]
+ACD,CO[C@H]([C@@H](C)C([O-])=O)[C@@H]1CCC[NH2+]1
+ACE,C[NH2+][C@]([C@@H](C)CC)([H])C([O-])=O
+ACF,C[NH2+]/C=C/CC[C@@H](C)C([O-])=O
+ACG,O=C([C@H]([C@H]([NH3+])C([O-])=O)C)O
+ACH,CC[C@@H]([NH3+])[C@@H](C)C([O-])=O
+ACI,CC[C@H](C)[C@H]([C@H](CC([O-])=O)O)[NH3+]
+ACJ,CC[C@H]([NH3+])[C@]([H])(C)C([O-])=O
+ACK,[NH3+][C@@H]([C@H](CC([O-])=O)O)CC(C)C
+ACL,C[NH2+][C@H](C([O-])=O)[C@@H](C)O
+ACM,O=C([O-])/C=C\[C@H](CO)[NH3+]
+ACN,O[C@H](C[NH3+])C([O-])=O
+ACO,C[NH2+][C@H](C([O-])=O)[C@H](C)C(C)C
+ACP,CC([C@@H](Cl)[C@H]([NH3+])C([O-])=O)C
+ACR,NC[C@@H](O)[C@@H]([NH3+])C([O-])=O
+ACS,[O-]C([C@H](C)[C@@H](O)[C@@H](C)[NH3+])=O
+ACT,NCCC[C@H]([NH3+])C([O-])=O
+ACU,NCC[C@@H](C([O-])=O)[NH3+]
+ACV,C[NH2+][C@H](C([O-])=O)[C@H](C)CCO
+ACW,OC1=CC=C([C@H]([NH3+])CC([O-])=O)C=C1
+ARA,[NH3+][C@H](C([O-])=O)CCCC/N=C(N)\N
+ARB,N/C(N)=N\CCC[C@H]([NH3+])C([O-])=O
+ARC,N/C(N)=N\CCCC([NH3+])C(C([O-])=O)=O
+ARD,O=C(/C([NH3+])=C/CC/N=C(N)\N)[O-]
+ARE,[NH3+][C@H](C([O-])=O)CCC/N=C(N)/N
+ARF,O=C(N)CC[C@H]([NH2+]C)C([O-])=O
+ARH,O=C([C@H]([C@@H]([NH3+])C([O-])=O)C)N
+GLA,O=C([C@H](CCCN)[NH3+])[O-]
+GLB,OC([NH2+]C)C([O-])=O
+GLC,CC(/C=C/[NH3+])=C/C/C=C/C([O-])=O
+GLD,O=C(/C([NH3+])=C/CCN)[O-]
+GLE,CC(/C=C/[NH3+])=C/C=C/CC([O-])=O
+GLF,O=C([C@@H]([NH3+])COC(C)(C)C=C)[O-]
+GLG,O=C([O-])[C@H]([NH3+])CCCN
+GLH,O=C([O-])[C@H](CCCNO)[NH3+]
+GLI,ONCCC[C@H](C([O-])=O)[NH2+]C
+GLJ,ONCCCC[C@H](C([O-])=O)[NH3+]
+GLK,O=C([O-])[C@@H](CCCNO)[NH3+]
+ILA,CC[C@H]([C@@H]([NH3+])C(C([O-])=O)=O)C
+ILB,CC[C@H](C)[C@@H](C(C([O-])=O)=O)[NH3+]
+ILC,CCC[C@H]([C@H](C([O-])=O)C)[NH3+]
+ILD,CCC[C@H](CC([O-])=O)[NH3+]
+ILF,O=C(O)[C@@H](C)[C@H](C([O-])=O)[NH3+]
+ILG,C[C@H](CC)[C@@H](C(C([O-])=O)=O)[NH3+]
+ILH,CCC[C@H]([C@@H](C([O-])=O)C)[NH3+]
+ILI,CC(C[C@@H](C(C([O-])=O)=O)[NH3+])C
+ILJ,[O-]C(/C([NH3+])=C/C)=O
+ILK,O=C(C([NH3+])CCC(O)=O)[O-]
+ILL,C[NH2+][C@H](C([O-])=O)[C@@H](C)CC
+ILM,C[NH2+][C@H]([C@H](CC)C)C([O-])=O
+ILN,O[C@@H]([C@@H]([NH3+])C([O-])=O)C(O)=O
+ILO,CC(C)[C@H]([NH2+]C)C([O-])=O
+ILP,CC([C@@](C([O-])=O)(N)[NH2+]C)C
+ILQ,[O-]C([C@@]([NH2+]C)([C@H](C)CC)[H])=O
+ILR,[H][C@@](C([O-])=O)([C@H](CC)C)[NH2+]C
+ILS,O=C([O-])[C@H]([C@H](C)C(O)=O)[NH3+]
+ILT,O[NH2+][C@@H]([C@H](O)C)C([O-])=O
+ILU,C[C@@H](O)[C@H]([NH2+]C)C([O-])=O
+ILV,CC[C@H](C)[C@@H]([C@H](CC([O-])=O)O)[NH3+]
+ILW,CC[C@H](C)[C@H]([C@H](CC([O-])=O)O)[NH3+]
+ILX,O=C([O-])[C@@H]([C@@H](C(C)C)O)[NH3+]
+ILY,OC[C@H]([NH3+])/C=C/C([O-])=O
+ILZ,[NH3+][C@H](C([O-])=O)[C@H](C(O)=O)O
+LEA,O=C([O-])[C@H]([C@@H](C)CC)[NH2+]C
+LEB,O=C(C[C@H](C[NH3+])O)[O-]
+LEC,CSC[C@@H]([NH3+])C([O-])=O
+LED,C[NH2+][C@@H](CSC)C([O-])=O
+LEE,CC(C)[C@H]([C@H](C([O-])=O)[NH3+])Cl
+LEF,O=C([O-])[C@H](CC(C)C)[NH2+]C
+LEG,O[C@H](C(C)C)[C@@H]([NH3+])C([O-])=O
+LEH,CO[C@H](C)[C@@H](C([O-])=O)[NH3+]
+LEI,[O-]C([C@@H]([C@@H](C(O)=O)C)[NH3+])=O
+LEJ,[O-]C(/C([NH2+][H])=C/C)=O
+LEK,C[NH2+]/C(C([O-])=O)=C/C
+LEL,O[NH2+]CC([O-])=O
+LEM,CC[C@@H]([C@H]([NH2+]C)C([O-])=O)C
+LEN,C[NH2+][C@H](C([O-])=O)[C@H](C)CC
+LEO,O=C([O-])[C@@H]([NH2+][H])C(C)(C)C
+LEP,O=C([O-])C([NH3+])(C)C
+LEQ,O=C([O-])C[NH2+]C
+LER,O=C([O-])[C@@H]([NH2+]C)C
+LES,CC[NH2+]CC([O-])=O
+LET,[O-]C(/C=C/[C@@H]([NH3+])CO)=O
+LEV,C[C@@H](C([O-])=O)[C@H]([NH3+])C(C)C
+LEW,CC[C@H]([NH3+])CC([O-])=O
+LEX,CC[C@@H]([NH3+])CC([O-])=O
+MAT,C[C@@H]([C@H]([NH3+])CCCCC)C([O-])=O
+MBT,C[NH2+][C@H](C([O-])=O)CCC(O)=O
+MCT,C[NH2+][C@@H](CC(O)=O)C([O-])=O
+MDT,C[NH2+][C@@H]([C@@H](CC)C)C([O-])=O
+MEA,O=C([O-])[C@H](CCS(=O)(C)=O)[NH3+]
+MEB,C[NH2+][C@@H](CCS(C)=O)C([O-])=O
+MEC,C[NH2+][C@H](CCS(C)=O)C([O-])=O
+MED,CS(CC[C@@H](C([O-])=O)[NH3+])=O
+MEE,O=C([O-])/C=C(OC)\CC[NH3+]
+MEF,CC([C@H]([NH2+]C)[C@H](OC)CC([O-])=O)C
+MEG,O=C([C@@H]([NH3+])[C@@H](C)OC)[O-]
+MEH,CC(C)(C([C@@H](C)[NH3+])=O)C([O-])=O
+MEI,C[C@@H](C(C(C([O-])=O)(C)C)=O)[NH3+]
+MEJ,CO/C([C@@H](CO)[NH3+])=C/C([O-])=O
+MEK,OC[C@@H]([C@@H](O)CC([O-])=O)[NH3+]
+MEL,OC[C@@H](/C=C/C([O-])=O)[NH3+]
+MEM,O[C@@H](CC([O-])=O)[C@@H]([NH3+])CC(C)C
+MEN,CC(C)CC[C@@H]([C@H](C([O-])=O)O)[NH3+]
+MEO,O[C@@H](C(O)=O)[C@@H](C([O-])=O)[NH3+]
+MEP,C/C=C/C[C@@H](C([O-])=O)[NH3+]
+MEQ,CC([C@H]([NH2+]C)/C=C(C([O-])=O)\C)C
+MER,C[C@@H](/C=C/C([O-])=O)[NH3+]
+MES,O=C([O-])[C@H]([C@@H](CC(O)=O)O)[NH3+]
+MEU,[O-]C(C[NH2+]CC(O)=O)=O
+MEV,O=C([O-])/C=C/C([NH3+])=C
+MEW,CC(C[C@H]([NH3+])/C=C\C([O-])=O)C
+MEX,O=C([O-])/C=C\[C@H](C)[NH3+]
+MEY,[NH3+][C@H](C([O-])=O)CN
+MEZ,CCC[C@H]([C@H](C([O-])=O)C)[NH3+]
+MFT,C[C@H]([C@@H]([NH3+])C([O-])=O)CC(O)=O
+MGT,O=C([C@@H]([NH2+]C)C[C@@H](CC)C)[O-]
+MHT,O=C([O-])[C@H]([C@@H](C)[C@@H](C)C(O)=O)[NH3+]
+MIT,O=C([O-])[C@@H]([NH2+]C)C[C@@H](C(O)=O)C
+MJT,C[C@@H]([C@@H](O)[C@H](C([O-])=O)C)[NH3+]
+MKT,C[NH2+][C@H](C([O-])=O)[C@@H](C)CCO
+MLT,CC(C)CC[C@H]([C@H](C([O-])=O)O)[NH3+]
+MMT,O[C@H]([C@H](CC(C)C)[NH3+])CC([O-])=O
+PAO,O=C([O-])[C@@H]1[NH2+]NCCC1
+PBO,O=C([O-])[C@H]1[NH2+]NCCC1
+PCO,O=C([O-])[C@@H]1[NH2+]NC[C@H](O)C1
+PDO,O=C([O-])[C@@H]1[NH2+]NC[C@@H](Cl)C1
+PEO,O=C([O-])[C@@]1(N)O[NH2+]CCC1
+PFO,O=C([C@]1(N)O[NH2+]CCC1)[O-]
+PGO,O[C@H]1C[C@@H](C([O-])=O)[NH2+]NC1
+PHO,O=C([O-])[C@H]1CCCC[NH2+]1
+PRA,C/C=C1[C@H]([C@](C([O-])=O)([H])[NH2+]C\1)C
+PRB,BrC1=C(Br)C=C([NH2+]1)C([O-])=O
+PRC,BrC1=C([NH2+]C(Br)=C1Br)C([O-])=O
+PRD,O=C([O-])[C@@H]([C@@H](O)[C@H]1[NH2+]CCC1)C
+PRE,O[C@H]1C[NH2+][C@@H](C([O-])=O)C1
+PRF,O[C@]1(C([O-])=O)[NH2+]CCC1
+PRG,O[C@@]1(CCC[NH2+]1)C([O-])=O
+PRH,O=C([O-])[C@]1([H])[C@H](CC[NH2+]1)C
+PRI,NC(/C=C/C1=C[NH2+][C@H](C([O-])=O)C1)=O
+PRJ,C/C=C1C[NH2+][C@H](C([O-])=O)[C@@H]/1C
+PRK,O=C([O-])C1=CC=C[NH2+]1
+PRL,C[C@@H]1C[NH2+][C@H](C([O-])=O)C1
+PRM,O[C@H]1C[NH2+][C@H](C([O-])=O)C1
+PRP,O=C([O-])C1=CC([NH3+])=CO1
+PRQ,O=C([C@H](CC1=COC=C1)[NH3+])[O-]
+PRR,O=C(C1=CCC[NH2+]1)[O-]
+PRS ,O=C([O-])[C@H]1[NH2+]CC[C@@H]1C
+PRT ,O=C([O-])[C@@H]([NH2+]C)CC1=COC=C1
+PRU ,BrC1=C[NH2+]C(C([O-])=O)=C1
+TRA ,O=C([O-])[C@@H]1[NH2+]C2=C(C1)C=CC=C2
+TYA ,OC1=CC=CC=C1C[C@@H](C([O-])=O)[NH3+]
+TYB ,[O-]C([C@H]([NH3+])[C@H](O)C1=CC=CC=C1)=O
+TYC ,[NH3+][C@@H](CC([O-])=O)C1=CC=CC=C1
+TYD ,O=C([C@H](CC1=CC=C(O)C=C1)[NH2+]C)[O-]
+TYE ,CC1=C(O)C([NH3+])=C(C([O-])=O)C=C1
+TYF ,C[NH2+][C@@H](CC1=CC=CC=C1)C([O-])=O
+TYG ,C[NH2+][C@@H](C([O-])=O)CC1=CC=CC=C1
+TYH ,C[NH2+][C@@H](C1=CC=CC=C1)C([O-])=O
+TYI ,C[NH2+][C@H](C1=CC=CC=C1)C([O-])=O
+TYJ ,OC1=CC(C([O-])=O)=C(C=C1)[NH3+]
+TYK ,OC1=CC=CC(C([O-])=O)=C1[NH3+]
+TYL,O[C@H](C1=CC=CC=C1)[C@@H](C([O-])=O)[NH3+]
+TYM ,COC1=CC([NH3+])=C(C=C1)C([O-])=O
+TYN ,O=C([O-])C1=CC=CC=C1[NH3+]
+TYO ,O=C([O-])C1=CC=CC=C1CC[NH3+]
+VAA ,C/C(C([O-])=O)=C/[NH3+]
+VAB ,[H]/C([NH3+])=C([H])/C([O-])=O
+VAC ,C[NH2+][C@@H](CO)C([O-])=O
+VAD ,OC[C@@H](C([O-])=O)[NH2+]C(N)=N
+VAE ,OC[C@@H]([NH2+]C(N)=N)C([O-])=O
+VAF ,CCCCC[C@@H]([NH3+])[C@@H](C)C([O-])=O
+VAG ,CO[C@@H]([C@H]([NH3+])C([O-])=O)C
+VAH ,OC(C[C@@H](C([O-])=O)[NH3+])=O
+VAI ,O=C([O-])[C@H](/C=C(C)\C)[NH2+]C
+VAJ ,[NH3+][C@H](/C=C\C([O-])=O)CO
+VAK,CSCC[C@@H](C([O-])=O)[NH3+]
+VAM ,O=C([C@@H]([NH3+])CN)[O-]
+VAN ,C[C@H]([C@H]([NH3+])C(C([O-])=O)=O)CC
+VAO,O=C([O-])[C@@H](CC(O)=O)[NH3+]
+VAP ,C[C@@H](C[NH3+])C([O-])=O
+VAQ ,CC[C@H]([C@@H](C([O-])=O)C)[NH3+]
+VAR ,O[C@H](C(O)=O)[C@@H](C([O-])=O)[NH3+]
+VAS ,C[NH2+][C@H](CC(C)C)C([O-])=O
+VAT ,O[C@@H](C([O-])=O)C[NH3+]
+VAU ,C[NH2+][C@H](SC)C([O-])=O
+VAV ,C[C@H]([C@H](C([O-])=O)N)[NH3+]
+VAW ,[O-]C(CC[NH3+])=O
+VAX ,O[C@@H](CC([O-])=O)C[NH3+]
+VAY ,O[C@@H](CC([O-])=O)[C@@H]([NH3+])CC(C)C
+VAZ ,CC/C=C([NH3+])\C([O-])=O
+YYA ,C[C@@H]([NH3+])C1=NC(C([O-])=O)=C(C)O1
+YYB ,O=C(C1=COC([C@@H]([NH3+])C)=N1)[O-]
+YYC ,CC[C@H](C)[C@@H](C1=NC(C([O-])=O)=C(O1)C)[NH3+]
+YYD ,O=C(C1=CSC(C[NH3+])=N1)[O-]
+YYE ,O=C([C@H]1N=C(SC1)[C@@H]([NH3+])C)[O-]
+YYG ,C[C@H](C1=NC(C([O-])=O)=CS1)[NH3+]
+YYH ,C[C@@H](C1=NC(C([O-])=O)=CS1)[NH3+]
+YYI ,[NH3+][C@H]([C@@H](CC)C)C1=NC(C([O-])=O)=CS1

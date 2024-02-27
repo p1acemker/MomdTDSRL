@@ -1,0 +1,139 @@
+,mol_index,smile_list
+0,[194  43 182 185],CC(C)[C@@H](C)[C@@H](C(=O)[NH]c1ccc(O)cc1C(=O)[NH][C@H](Cc1cnc[nH]1)C(O)=O)[NH](C)C(=O)[C@H](N)CC(=O)O
+1,[206   9 121 207],CO[C@@H]([C@@H]1CCC[NH]1C(=O)[C@]1(NC(=O)[C@@H](N)CCSC)CCC[NH2]O1)[C@@H](C)C(=O)[NH]1CCC[C@@]1(O)C(O)=O
+2,[ 26 154 151 129],NC(=NCCCC(N)C(=O)C(=O)[NH]c1c(O)cccc1C(=O)[NH]c1ccccc1C(O)=O)NC(=O)C[C@H](N)C(O)=O
+3,[188  29 113 189],C/C=C(/[NH2]C)C(=O)[NH][C@H](CC(C)C)C(=O)[NH](C)[C@H](C(=O)[NH][C@@H](c1nc(C(O)=O)cs1)[C@H](C)CC)[C@@H](C)CC
+4,[ 53  22 100 182],C[C@@H](C[C@@H](C(=O)[NH][C@@H](C(O)=O)[C@H](C)C(=O)O)[NH](C)C(=O)CC[NH]C(=O)/C=C/[C@@H](N)CO)C(=O)O
+5,[161 107  61 179],C/C=C1/C[NH2][C@H](C(=O)[NH][C@H](CCCCC)[C@H](C)C(=O)[NH][C@H](CCC)[C@@H](C)C(=O)[NH](C)[C@H](C(O)=O)c2ccccc2)[C@@H]1C
+6,[181  24 151  67],CCC[C@@H]([NH]C(=O)c1coc([C@H](C)N)n1)[C@H](C)C(=O)[NH][C@H](/C=C/C(=O)N[C@@]1(C(O)=O)CCC[NH2]O1)CO
+7,[ 10 138  35  30],CO[C@@H]([C@@H]1CCC[NH]1C(=O)[C@@H](SC)[NH](C)C(=O)[C@H](O)[C@H](N)C(=O)[NH][C@@H](C)/C=C\C(O)=O)[C@@H](C)C(O)=O
+8,[ 36 103  65  27],C[NH2][C@H](/C=C(\C)C(=O)[NH](C)[C@H](C(=O)[NH](C)/C=C/CC[C@@H](C)C(=O)[NH](C)C(O)C(O)=O)[C@@H](C)CCO)C(C)C
+9,[110 104  70 161],C[NH](CC(O)=O)C(=O)[C@@H]([NH]C(=O)[C@H](Cc1ccccc1)[NH](C)C(=O)c1cc(N)co1)[C@@H](O)C(=O)O
+10,[211 217  72 142],C[NH2][C@@H](Cc1ccc(O)cc1)C(=O)[NH][C@H](CC(C)C)[C@@H](O)CC(=O)[NH]CCc1ccccc1C(=O)[NH][C@H](C(O)=O)[C@H](Cl)C(C)C
+11,[145 116  16 125],CC(C)C[C@@H](N)C(=O)[NH][C@@H](Cc1ccccc1O)C(=O)[NH](O)[C@H](C(=O)[NH]1NCCC[C@H]1C(O)=O)[C@@H](C)O
+12,[ 19 211  16  86],C/C=C1/C[NH](C(=O)[C@@H]([C@@H](C)CC)[NH](C)C(=O)[C@H](C)[C@H]([NH]C(=O)[C@@H]([NH2]C)[C@H](C)CC)C(C)C)[C@H](C(O)=O)[C@@H]1C
+13,[151  89  94  28],CC(C)C[C@H](N)C(=O)C(=O)[NH][C@@H](CO)[C@@H](O)CC(=O)[NH][C@@H](C)c1nc(C(=O)[NH](C)[C@H](C(O)=O)[C@@H](C)O)cs1
+14,[170 168 155 127],CCCCC[C@@H]([NH]C(=O)[C@H]1CCC[NH]1C(=O)[C@H]([NH]C(=O)/C=C\[C@H](C)N)[C@@H](C)CC)[C@H](C)C(O)=O
+15,[197 148  22 157],CC[C@H](C)[C@H]([NH]C(=O)[C@H]1C[C@H](Cl)CN[NH2]1)C(=O)C(=O)[NH][C@@H](CCSC)C(=O)[NH]/C=C/C(C)=C\C=C\CC(O)=O
+16,[175  29 186  34],C/C=C(\[NH]C(=O)[C@H](C)[C@@H](O)[C@@H]1CCC[NH2]1)C(=O)NCC[C@H](N)C(=O)[NH](C)[C@H](C(O)=O)c1ccccc1
+17,[60 61 29 32],C[C@H]1C[C@@H](C(=O)NC[C@@H](O)[C@@H](N)C(O)=O)[NH](C(=O)CC[NH]C(=O)[C@@]2(N)CCC[NH2]O2)C1
+18,[ 69 172 201 185],CC[C@H](C)[C@@H](N)[C@@H](O)CC(=O)[NH][C@@H](C)/C=C/C(=O)[NH]1C[C@H](O)C[C@@H]1C(=O)[NH][C@H](CC(N)=O)C(O)=O
+19,[70 49 60 67],C[NH](C(=O)[C@@H]([NH]C(=O)[C@H](N)[C@H](O)CNC(=O)c1ccccc1CCN)C(=O)c1ccccc1)[C@@H](CCC(=O)O)C(O)=O
+20,[206 159 190  28],CC[NH2]CC(=O)N[C@@H](C(=O)[NH][C@@H](C(=O)[NH](C)/C=C/CC[C@@H](C)C(O)=O)[C@H](O)C(C)C)[C@@H](C)N
+21,[213  65 122 148],C/C=C(\C(=O)[NH][C@@H](CC)[C@H](C)C(O)=O)[NH](C)C(=O)[C@H](CC(C)C)[NH](C)C(=O)[C@H]1CCCC[NH2]1
+22,[ 43  69 206   5],CC(C)C[C@@H]([NH]C(=O)[C@@H](N)CCc1ccccc1)C(=O)[NH][C@@H](C(=O)NC(N)=NCCCC(N)C(=O)C(O)=O)[C@H](O)c1ccccc1
+23,[131  48 107  36],CC[C@@H](C)[C@@H]([NH]C(=O)/C=C\[C@H](CC(C)C)[NH]C(=O)[C@H](N)CS)c1nc(C(=O)[NH](C)[C@@H](CCC(=O)O)C(O)=O)cs1
+24,[192 102 140  94],CC(C)C[C@@H]([NH]C(=O)/C=C\N)[C@@H](O)CC(=O)[NH](C)[C@H](CCS(C)=O)C(=O)[NH](C)[C@@H](CO)C(O)=O
+25,[ 58  92 142 196],CC[C@@H](C)[C@@H](C(=O)[NH](C)[C@@H](C[C@H](C)C(=O)NC[C@@H](O)[C@@H](N)C(O)=O)C(O)=O)[NH](C)C(=O)[C@@H](N)CCN
+26,[102 207  90  24],C[C@@H](C[C@@H](C(=O)[NH]1C(Br)=C(Br)C(Br)=C1C(=O)[NH](C)/C=C/CC[C@@H](C)C(O)=O)[NH](C)C(=O)c1csc(CN)n1)C(=O)O
+27,[145  26 155 168],C[C@H](C(=O)O)[C@@H]([NH]C(=O)[C@H]1C[C@@H](O)CN[NH]1C(=O)[C@H](CCS(C)=O)[NH](C)C(=O)[C@H](O)CN)C(O)=O
+28,[165  70 126 198],CSC[C@@H](N)C(=O)NC(=O)/C=C/C1=C[NH2][C@H](C(=O)[NH][C@H](C(=O)[NH][C@@H](CO)[C@@H](O)CC(O)=O)[C@H](O)C(=O)O)C1
+29,[ 31 155  25 118],CSCC[C@@H]([NH]C(=O)[C@H]([NH]C(=O)C(C)(C)C(=O)[C@@H](C)N)[C@H](O)C(C)C)C(=O)[NH][C@@H](C(O)=O)[C@@H](C)CC(=O)O
+30,[  5  29 100  14],CCC[C@H](CC(=O)[NH][C@H](CCC(C)C)[C@@H](O)C(O)=O)[NH]C(=O)C[C@H](O)[C@H]([NH]C(=O)[C@@H](N)[C@@H](C)c1ccccc1)[C@@H](C)CC
+31,[ 54  89 177 153],CC[C@H](C)[C@H]([NH2]C)C(=O)[NH][C@@H](Cc1ccccc1O)C(=O)[NH]C[C@H](C)C(=O)[NH]c1ccccc1C(O)=O
+32,[ 71 204  14  18],CC/C=C(/N)C(=O)[NH]1CCC=C1C(=O)[NH][C@H](C(=O)[NH][C@@H](Cc1ccccc1O)C(O)=O)[C@H](O)C(=O)O
+33,[ 54  74 134  22],C[NH2][C@@](NC(=O)[C@@H](N)CCCN)(C(=O)[NH](C)[C@H](SC)C(=O)[NH][C@@H](Cc1ccoc1)C(O)=O)C(C)C
+34,[149 208 163  35],C[NH](C(=O)/C=C\[C@H](CO)[NH]C(=O)[C@H](O)CN)[C@@H](Cc1ccc(O)cc1)C(=O)[NH][C@@H](Cc1ccoc1)C(O)=O
+35,[214  83 174 149],C=CC(C)(C)OC[C@H]([NH]C(=O)/C(=C/CCN=C(N)N)[NH]C(=O)/C(C)=C\[NH]C(=O)[C@H]1[NH2]CC[C@@H]1C)C(O)=O
+36,[185  28 154 144],CO/C(=C/C(O)=O)CC[NH]C(=O)c1cccc(O)c1[NH]C(=O)[C@@H](N)[C@H](C)C(=O)[NH]1CC[C@H](C)[C@H]1C(O)=O
+37,[ 79  90 169  89],CC[C@H](C)[C@@H](N)[C@@H](O)CC(=O)[NH](C)[C@@H](C=C(C)C)C(=O)[NH][C@@H](CCCCN=C(N)N)C(=O)[NH](C)[C@@H](CC(C)C)C(O)=O
+38,[ 95 154  59  74],CO[C@H](C)[C@H]([NH]C(=O)[C@@H](CO)[NH2]C(=N)N)C(=O)[NH]C[C@@H](O)C(=O)[NH][C@H](C(O)=O)[C@@H](O)C(=O)O
+39,[163  78  39  45],C[C@H]1C[C@@H](C(O)=O)[NH](C(=O)[C@@H](CCS(C)=O)[NH](C)C(=O)[C@H](N)[C@H](O)CNC(=O)c2coc([C@H](C)N)n2)C1
+40,[  9 166 184  73],C[NH2][C@@](NC(=O)c1ccc(OC)cc1[NH]C(=O)[C@H](Cc1ccoc1)[NH]C(=O)[C@H](N)CCCCN)(C(O)=O)C(C)C
+41,[ 78 200 140   8],CCCCC[C@@H](N)[C@@H](C)C(=O)[NH]CCc1ccccc1C(=O)[NH]1NC[C@@H](O)C[C@H]1C(=O)N[C@@]1(C(O)=O)CCC[NH2]O1
+42,[150  89  83   6],CC[C@H]([NH]C(=O)c1ccccc1N)[C@H](C)C(=O)[NH]1C(Br)=C(Br)C(Br)=C1C(=O)[NH]1NCCC[C@@H]1C(O)=O
+43,[ 86 160 203 121],CCC[C@@H](N)[C@@H](C)C(=O)[NH](C)[C@@H](Cc1ccoc1)C(=O)[NH][C@H](C(=O)[NH]1C=C(Br)C=C1C(O)=O)[C@H](O)c1ccccc1
+44,[ 37  73 206 166],CC[C@H]([NH]C(=O)[C@H](CO)[NH](C(=N)N)C(=O)[C@@H]1[C@@H](C)CC[NH]1C(=O)[C@H]([NH2]C)SC)[C@H](C)C(O)=O
+45,[ 75  74 149 215],CC[NH2]CC(=O)[NH](C)[C@@H](CSC)C(=O)[NH]1C=C(Br)C=C1C(=O)[NH][C@@H](CC(C)C)C(=O)C(O)=O
+46,[159 187  44  53],C=CC(C)(C)OC[C@H]([NH]C(=O)[C@@]1(N)CCC[NH2]O1)C(=O)[NH]CC/C(=C\C(=O)[NH][C@H](/C=C/C(O)=O)CO)OC
+47,[205 112 146  92],CC(C)C[C@@H]([NH]C(=O)[C@H](N)CS)[C@@H](O)CC(=O)[NH](C)CC(=O)[NH][C@H](CO)C(O)=O
+48,[167 197 204 110],CC[C@H](C)[C@H](N)c1nc(C(=O)[NH][C@H](C(=O)[NH][C@@H](CC(=O)N[C@]2(C(O)=O)CCC[NH2]O2)c2ccccc2)[C@@H](O)C(=O)O)c(C)o1
+49,[ 27 195  41  89],CC[C@H](C)[C@H](N)[C@@H](O)CC(=O)[NH][C@@H](C(=O)[NH](C)[C@@H](Cc1ccoc1)C(=O)[NH](C)[C@@H](CC(C)C)C(O)=O)[C@H](O)C(C)C
+50,[163  75 211 151],CC(C)C[C@@H](C(=O)[NH][C@H](C(=O)[NH]1CCC[C@@H]1C(O)=O)[C@@H](O)C(=O)O)[NH](C)C(=O)[C@@H]1C[C@H](O)CN[NH2]1
+51,[26  8 26 50],C/C=C(\[NH]C(=O)[C@H]1CCCC[NH]1C(=O)[C@H](C)CC/C=C/[NH](C)C(=O)c1cc(O)ccc1N)C(O)=O
+52,[109 110  43  50],CC(C)C[C@H](C(=O)[NH][C@H](CO)C(=O)[NH][C@H](Cc1ccccc1)C(O)=O)[NH](C)C(=O)[C@H](N)[C@H](O)C(=O)O
+53,[ 37 153  12  20],C=C(N)/C=C/C(=O)NCCC[C@H](N)C(=O)[NH][C@H](CCCCC)[C@H](C)C(=O)[NH][C@H](C)[C@H](O)[C@@H](C)C(O)=O
+54,[111 131 178 203],CSCC[C@@H](N)C(=O)[NH][C@H](CCCNC(=N)N)C(=O)[NH](C)[C@@H](C)C(=O)[NH]1CCC[C@H]1[C@H](O)[C@@H](C)C(O)=O
+55,[ 82 201  88 144],CC[C@H](C)[C@@H](C(=O)[NH]C[C@H](O)CC(=O)[NH]c1cc(OC)ccc1C(O)=O)[NH](C)C(=O)c1cc(N)co1
+56,[ 38 110 139  35],C[NH2][C@H](C(=O)[NH][C@H](CC(=O)[NH][C@@H](C)[C@@H](O)[C@@H](C)C(=O)[NH][C@H](CC(C)C)C(O)=O)C(O)=O)[C@@H](C)O
+57,[135 169 183 170],CCC[C@@H]([NH]C(=O)[C@H](N)[C@@H](C)O)[C@H](C)C(=O)[NH]/C=C/C(C)=C\C=C\CC(=O)[NH][C@@H](CC(C)C)[C@@H](O)CC(O)=O
+58,[215 139 154  24],CC[NH](CC(=O)[NH][C@H](C(O)=O)[C@H](C)C(=O)O)C(=O)C(C)(C)C(=O)[C@H](C)[NH]C(=O)[C@@H](N)C(=O)c1ccccc1
+59,[127 141  24  49],CC(C)C[C@H]([NH]C(=O)C[NH](C)C(=O)[C@@H](N)CCCNC(=O)[C@@H](N)CN)C(=O)C(O)=O
+60,[ 10   1 101 155],C/C(=C\[C@H](C(C)C)[NH](C)C(=O)[C@H](C)[C@@H](O)[C@@H]1CCC[NH]1C(=O)[C@@H]1[C@@H](C)CC[NH]1C(=O)C1=CC(Br)=C[NH2]1)C(O)=O
+61,[198  37 100  66],CC[C@H](C)[C@H]([NH]C(=O)C(=O)C(N)CCCN=C(N)NC(=O)[C@H](CO)[NH2]C(=N)N)C(=O)C(=O)[NH][C@H](/C=C\C(O)=O)CO
+62,[136  43 205  19],C[C@@H](O)[C@@H](C(O)=O)[NH](C)C(=O)[C@@H]([NH]C(=O)C[C@@H]([NH]C(=O)[C@]1(N)CCC[NH2]O1)c1ccc(O)cc1)[C@H](O)CC(=O)O
+63,[ 95 160   3 128],CCCCC[C@@H]([NH]C(=O)[C@H](CO)[NH](C(=N)N)C(=O)/C=C/C/C=C(C)\C=C\N)[C@@H](C)C(=O)[NH]C[C@H](C)C(O)=O
+64,[ 31 142 201  65],CC[C@@H](C)[C@@H](C(O)=O)[NH](C)C(=O)[C@@H](CC(C)C)[NH](C)C(=O)[C@H](CCSC)[NH]C(=O)C1=CCC[NH2]1
+65,[125 206  22 133],C[C@@H](CC(=O)[NH]C[C@@H](O)C(=O)[NH][C@@H](CCc1ccccc1)C(O)=O)[C@@H](N)C(=O)NC(N)=NCCCC(N)C(=O)C(O)=O
+66,[149  53 115  82],C/C=C/C[C@H]([NH]C(=O)[C@@H]([C@@H](C)CC)[NH](C)C(=O)c1cc(N)co1)C(=O)[NH][C@@H](CN)C(O)=O
+67,[167 163  26 199],CC[C@H](C)[C@H](C(O)=O)[NH](C)C(=O)/C=C\[C@H](CC(C)C)[NH]C(=O)[C@H]1CCC[NH]1C(=O)c1cc(N)co1
+68,[ 55  93 129  33],CC[C@@H]([NH]C(=O)[C@@H]1CCCN[NH2]1)[C@@H](C)C(=O)[NH]1CCC[C@H]1[C@H](O)[C@@H](C)C(=O)[NH]1CC[C@H](C)[C@H]1C(O)=O
+69,[191 193 205  83],CC[C@@H](C)[C@@H](C(=O)[NH][C@@H](CCc1ccccc1)C(O)=O)[NH](C)C(=O)/C=C(/OC)[C@@H](CO)[NH]C(=O)C1=CCC[NH2]1
+70,[147 196  90   9],CC[C@H](C)[C@@H](C(=O)[NH][C@@H](C)/C=C/C(=O)[NH][C@@H](CC(C)C)[C@@H](O)CC(O)=O)[NH](C)C(=O)[C@@H](N)CCCN=C(N)N
+71,[179 173  18  73],C[NH2][C@H](C(=O)[NH][C@@H](C(=O)[NH][C@H](Cc1ccccc1)C(=O)N[C@]([NH2]C)(C(O)=O)C(C)C)[C@H](O)c1ccccc1)c1ccccc1
+72,[ 50 190 192 201],C=CC(C)(C)OC[C@H]([NH]C(=O)[C@@H]1C[C@H](O)CN[NH]1C(=O)[C@](N)([NH2]C)C(C)C)C(=O)[NH](C)[C@H](C(O)=O)[C@@H](C)CC
+73,[ 25 168 182 115],C[C@@H]1C[NH2][C@H](C(=O)[NH](C)[C@H](C(=O)[NH](C)[C@H](C(=O)[NH][C@@H](CCCN=C(N)N)C(O)=O)[C@H](C)CCO)[C@@H](C)O)C1
+74,[ 73 150  53  69],CC(C)[C@@H](O)[C@@H]([NH]C(=O)/C=C\[C@H](CO)[NH]C(=O)[C@H]1C[C@H](Cl)CN[NH2]1)C(=O)[NH][C@H](CCCCN)C(O)=O
+75,[ 86 101  28 178],CC/C=C(/[NH]C(=O)[C@H]([C@@H](C)CC)[NH](C)C(=O)[C@@H]1C[C@H](C)C[NH2]1)C(=O)[NH]1CCCC[C@@H]1C(O)=O
+76,[118  81  10 136],C=C(/C=C/C(=O)[NH](C)[C@H](Cc1ccccc1)C(=O)[NH][C@H](C(O)=O)[C@H](O)C(=O)O)[NH]C(=O)[C@@H](N)CCS(C)(=O)=O
+77,[151  66 209  12],C=C(/C=C/C(O)=O)[NH]C(=O)C[C@@H]([NH]C(=O)[C@@H]([NH]C(=O)[C@@H](C)N)[C@@H](C)OC)C(O)=O
+78,[ 80 128 156   2],C[NH2][C@H](SC)C(=O)[NH][C@H](CCCCN)C(=O)[NH][C@@H](CO)[C@@H](O)CC(=O)N[C@@H](C(O)=O)[C@@H](C)N
+79,[122 173 154 137],CCC[C@H](CC(=O)[NH][C@H](C(=O)C(=O)N[C@@]1(C(O)=O)CCC[NH2]O1)[C@H](C)CC)[NH]C(=O)C[C@H](O)[C@@H](N)CC(C)C
+80,[184 132 195 117],CC(C)C[C@H]([NH]C(=O)[C@H]1CCCC[NH2]1)C(=O)C(=O)[NH]C[C@@H](O)CC(=O)[NH][C@H](Cc1ccc(O)cc1)C(O)=O
+81,[213  35 113 163],CC(C)[C@@H](Cl)[C@@H]([NH]C(=O)[C@@H](C)C[NH]C(=O)/C=C/[C@@H](N)CO)C(=O)[NH]1NCCC[C@@H]1C(O)=O
+82,[ 33  28 174  39],CC[C@@H](C)C[C@@H](C(O)=O)[NH](C)C(=O)[C@@H]([NH]C(=O)[C@@H](CCCCN)[NH]C(=O)[C@@H](N)[C@H](Cl)C(C)C)[C@@H](O)C(=O)O
+83,[165   6 132  70],NC(N)=NCCCC(N)C(=O)C(=O)NC(N)=NCCCC(N)C(=O)C(=O)[NH]1CCCC[C@@H]1C(=O)[NH]CCC(O)=O
+84,[213  29 175  85],CC/C=C(/[NH]C(=O)[C@@H](N)CCc1ccccc1)C(=O)[NH][C@H](Cc1c[nH]c2ccccc12)C(=O)[NH][C@H](CSC)C(O)=O
+85,[165 177  83 100],CC[C@H](C)[C@H]([NH]C(=O)[C@H](C)[C@@H](CC)[NH]C(=O)[C@@H]1C[C@H](C)C[NH]1C(=O)C1=CCC[NH2]1)C(=O)C(O)=O
+86,[132  53 144 217],C[NH2][C@H](C(=O)[NH][C@H](C(=O)[NH](O)[C@H](C(=O)[NH]c1c(C(O)=O)ccc(C)c1O)[C@@H](C)O)[C@H](C)C(=O)O)C(C)C
+87,[ 51  61  86 120],CC[C@H](C)[C@H]([NH]C(=O)[C@@H]([NH2]C)C(C)C)C(=O)C(=O)[NH][C@H](Cc1cnc[nH]1)C(=O)[NH][C@H](/C=C\C(O)=O)CO
+88,[210  62  64 148],CC[C@H](C)[C@H]([NH2]C)C(=O)[NH](C)[C@H](C(=O)N[C@]1(C(=O)[NH]Cc2nc(C(O)=O)cs2)CCC[NH2]O1)[C@H](C)CC
+89,[205 116  12  28],C[NH2][C@@H](Cc1ccoc1)C(=O)[NH][C@H](C(=O)[NH]1CCC[C@H]1[C@H](O)[C@@H](C)C(=O)[NH]c1ccc(O)cc1C(O)=O)[C@@H](C)OC
+90,[75 77 84  5],CCC[C@@H]([NH]C(=O)[C@@H](C)C[NH]C(=O)[C@H](O)[C@@H](CCC(C)C)[NH]C(=O)/C=C\[C@@H](N)CO)[C@H](C)C(O)=O
+91,[ 34   9 125 137],CC[C@H]([NH]C(=O)[C@@H]([NH2]C)[C@H](C)C(C)C)[C@H](C)C(=O)[NH][C@@H](CC(=O)[NH](C)[C@H](C(O)=O)[C@H](C)CCO)c1ccccc1
+92,[136 119  43 128],CC(C)C[C@@H]([NH]C(=O)c1coc([C@H](C)N)n1)[C@@H](O)CC(=O)[NH](C)[C@@H](Cc1ccc(O)cc1)C(=O)[NH]C[C@H](O)CC(O)=O
+93,[  8 172  77 145],CC[C@@H](C)[C@@H](C(O)=O)[NH](C)C(=O)C[NH](CC(=O)O)C(=O)[C@@H](Cc1ccccc1)[NH]C(=O)[C@H]1C[C@H](Cl)CN[NH2]1
+94,[109 181 188 127],CCC[C@@H](N)[C@@H](C)C(=O)[NH](C(=N)N)[C@H](CO)C(=O)[NH][C@H](C)[C@H](O)[C@@H](C)C(=O)[NH]c1ccc(O)cc1C(O)=O
+95,[ 6 36 69  9],CC(C)C[C@@H](C(=O)[NH](C)[C@@H](Cc1ccccc1)C(=O)[NH]1C(C(O)=O)=CC(Br)=C1Br)[NH](C)C(=O)[C@H](N)CCCN
+96,[ 19   8 173  43],CC[C@@H](N)[C@@H](C)C(=O)[NH][C@H](CC(C)C)C(=O)[NH][C@H](CC)[C@@H](C)C(=O)[NH]/C=C/C(C)=C\C/C=C/C(O)=O
+97,[102  87 170  66],CO[C@H](CC(=O)[NH][C@H](Cc1c[nH]c2ccccc12)C(=O)[NH][C@H](C(O)=O)[C@@H](O)C(=O)O)[C@H](C(C)C)[NH](C)C(=O)[C@@H]1CCCN[NH2]1
+98,[147  60 197  52],CC(C)CC[C@@H]([NH]C(=O)[C@@H](C)[C@@H]([NH]C(=O)[C@H](N)CCCNO)C(=O)[NH][C@H](/C=C\C(O)=O)CO)[C@@H](O)C(O)=O
+99,[148  40 129  78],COc1ccc(C(=O)[NH][C@H](/C=C\C(=O)[NH](C)[C@@H](C=C(C)C)C(=O)[NH][C@H](C(O)=O)[C@@H](C)OC)CC(C)C)c(N)c1
+100,[173  25  77  90],C=C(N)/C=C/C(=O)[NH][C@@H](C(=O)[NH][C@H](c1nc(C(=O)[NH]/C(=C\CCN)C(O)=O)c(C)o1)[C@@H](C)CC)[C@H](C)C(=O)O
+101,[190  43  60  31],CC(C)C[C@H](N)[C@@H](O)CC(=O)[NH]Cc1nc(C(=O)[NH]CCC(=O)[NH][C@H](C(O)=O)[C@@H](O)C(=O)O)cs1
+102,[133   7   6 107],CC[C@H]([NH]C(=O)[C@H]1C[C@@H](O)C[NH2]1)[C@H](C)C(=O)[NH]1C[C@@H](C)C[C@H]1C(=O)NC[C@@H](O)[C@@H](N)C(O)=O
+103,[153 115 115 156],C/C=C(\[NH]C(=O)[C@@H](Cc1c[nH]c2ccccc12)[NH]C(=O)[C@H](c1ccccc1)[NH](C)C(=O)[C@H]1[NH2]C/C(=C/C)[C@H]1C)C(O)=O
+104,[167 120 110  19],C/C=C(\C(O)=O)[NH](C)C(=O)[C@H](C)[C@H](O)[C@H](C)[NH]C(=O)C[NH](CC)C(=O)[C@H](C)[C@H](N)CCCCC
+105,[156  28 163  35],C[C@@H](/C=C/C(O)=O)[NH]C(=O)C[C@@H]([NH]C(=O)[C@@H]1CC(/C=C/C(=O)NC(=O)C[NH2]O)=C[NH2]1)C(O)=O
+106,[ 94   8  69 219],CC[C@@H](C)[C@@H](C(=O)NC(N)=NCCCC(N)C(=O)C(=O)[NH]/C=C/C(C)=C\C/C=C/C(O)=O)[NH](C)C(=O)C[C@H]([NH2]C)C(O)=O
+107,[161 179  16  93],CC[C@H](C)[C@@H](C(=O)NCC[C@H](N)C(=O)[NH][C@H](/C=C\C(O)=O)CO)[NH](C)C(=O)C[C@H](O)[C@@H](N)CO
+108,[ 92  52 213 217],CSCC[C@@H](N)C(=O)[NH][C@H](C(=O)NC[C@@H](O)[C@@H](N)C(=O)[NH](C)[C@H](C(O)=O)[C@@H](C)O)[C@@H](C)[C@@H](C)C(=O)O
+109,[ 72  76  77 176],NCCC[C@H](N)C(=O)[NH]1C(C(=O)[NH][C@H](Cc2ccc(O)cc2)C(=O)[NH][C@H](C(O)=O)C(=O)c2ccccc2)=CC(Br)=C1Br
+110,[200  33 181  17],CC(C)[C@@H](O)[C@@H]([NH]C(=O)[C@H]([C@@H](C)O)[NH](O)C(=O)[C@@H](C)[C@H]([NH]C(=O)[C@H](N)[C@H](O)c1ccccc1)C(O)=O)C(O)=O
+111,[  0 117 200 131],CCC[C@@H]([NH]C(=O)C(=O)[C@@H](N)[C@@H](C)CC)[C@@H](C)C(=O)[NH][C@H](CC(C)C)[C@@H](O)CC(=O)[NH]C[C@@H](O)C(O)=O
+112,[186  35  20 108],C[C@@H](/C=C/C(O)=O)[NH]C(=O)C(=O)C(N)CCCN=C(N)NC(=O)C[C@H](C)[C@@H](N)C(=O)[NH][C@@H](C)C(=O)C(C)(C)C(O)=O
+113,[211 167 203 172],CC[C@@H](C)C[C@@H](C(O)=O)[NH](C)C(=O)C1=C(Br)C(Br)=C(Br)[NH]1C(=O)[C@H]([NH]C(=O)/C=C/[C@@H](N)CO)[C@H](O)c1ccccc1
+114,[ 66 121 218  78],CC[C@H](C)[C@H]([NH2]C)C(=O)[NH](O)[C@H](C(=O)[NH](C)[C@H](C(=O)[NH][C@H](CS)C(O)=O)[C@@H](C)CC)[C@@H](C)O
+115,[155 206 126 122],C/C=C/C[C@H]([NH]C(=O)[C@@H](SC)[NH](C)C(=O)[C@H](C)[C@@H](O)[C@@H]1CCC[NH2]1)C(=O)[NH][C@H](/C=C/C(O)=O)CO
+116,[ 20 119 102  76],CC/C=C(/N)C(=O)[NH][C@H](C)c1nc(C(=O)[NH](C)[C@H](C(=O)[NH][C@H](CCC(C)C)[C@@H](O)C(O)=O)C(C)C)cs1
+117,[ 15  65  52 123],CC[C@H]([NH]C(=O)[C@@H](Cc1ccc(O)cc1)[NH]C(=O)C[C@@H](OC)[C@H](C(C)C)[NH](C)C(=O)[C@H](O)CN)[C@H](C)C(O)=O
+118,[ 71 215  81 197],CO/C(=C/C(=O)[NH]1C[C@H](O)C[C@@H]1C(O)=O)CC[NH]C(=O)/C=C(\CC[NH]C(=O)C1=CC(Br)=C(Br)[NH2]1)OC
+119,[169 193 155 181],CC[C@H]([NH]C(=O)[C@H](C)[NH](C)C(=O)[C@H](N)CSC)[C@H](C)C(=O)[NH](C)[C@H](Cc1ccccc1)C(O)=O
+120,[  5 132 219 108],CC(=C/C=C/CC(=O)[NH][C@@H](C)c1nc(C(=O)[NH][C@H](C)c2nc(C(O)=O)cs2)co1)/C=C/[NH]C(=O)[C@H](N)[C@H](C)C(=O)O
+121,[131  92 214  51],C[C@H](N)C1=N[C@H](C(=O)NC(=O)/C=C/C2=C[NH2][C@H](C(=O)[NH](C)[C@H](C(=O)[NH]3C[C@H](O)C[C@H]3C(O)=O)[C@H](C)CCO)C2)CS1
+122,[192 186 150 148],CC[C@@H](C)[C@@H](C(O)=O)[NH](C)C(=O)C(=O)[C@H]([NH]C(=O)C1=C(Br)C(Br)=C(Br)[NH]1C(=O)C[NH2]O)[C@H](C)CC
+123,[ 32  31 175 166],CC[C@H](C)[C@@H](C(=O)[NH][C@H](CCCCN)C(O)=O)[NH](C)C(=O)[C@H](C)[C@@H](O)[C@@H](C)[NH]C(=O)[C@H]1CCC[NH2]1
+124,[147 200  73 219],CC[C@@H](C)[C@@H](C(=O)[NH][C@@H](CN)C(=O)[NH]1CCC[C@H]1[C@H](OC)[C@@H](C)C(O)=O)[NH](C)C(=O)[C@H](N)CCCN
+125,[ 82 208 139  92],CC[C@@H](N)[C@@H](C)C(=O)[NH]1C(Br)=C(Br)C(Br)=C1C(=O)[NH]1CCCC[C@@H]1C(=O)[NH][C@H](C(O)=O)[C@H](O)CC(=O)O
+126,[143 215 208 125],CC[C@H](C)[C@@H](C(=O)[NH](C)[C@H](SC)C(=O)[NH][C@H](CS)C(O)=O)[NH](C)C(=O)C(=O)C(N)CCCN=C(N)N
+127,[165  69  85 184],CC[C@@H](C)[C@@H]([NH]C(=O)[C@H](C[C@H](C)C(=O)[NH][C@H](CO)/C(=C\C(=O)[NH]/C(=C\CCN)C(O)=O)OC)[NH2]C)c1nc(C(O)=O)cs1
+128,[ 21  80  62 142],CCC[C@@H]([NH]C(=O)/C(N)=C/CCN)[C@@H](C)C(=O)[NH][C@H](CSC)C(=O)[NH][C@H](CO)/C(=C\C(O)=O)OC
+129,[155  67  38 179],CCC[C@@H]([NH]C(=O)/C=C/[C@H](CO)[NH]C(=O)[C@H](C)[C@@H](O)[C@@H](C)N)[C@H](C)C(=O)[NH][C@H]([C@@H](C)CC)[C@@H](O)CC(O)=O
+130,[ 43  43 151 208],C/C=C(\[NH]C(=O)[C@@H](N)CCCNO)C(=O)[NH][C@H](C(=O)[NH](C)[C@H](C(O)=O)[C@H](C)C(C)C)[C@H](O)CC(=O)O
+131,[139 219 120  51],C=CC(C)(C)OC[C@H](N)C(=O)[NH]1CCC[C@H]1[C@H](OC)[C@@H](C)C(=O)[NH](C)CC(=O)[NH]c1c(O)cccc1C(O)=O
+132,[ 61 191  36 181],CSCC[C@H]([NH]C(=O)[C@@H](O)[C@@H](N)C(=O)[NH]Cc1nc(C(=O)[NH][C@@H](C(O)=O)[C@H](O)C(C)C)cs1)C(O)=O
+133,[216 160  39 164],C=CC(C)(C)OC[C@H]([NH]C(=O)/C=C\[C@@H](N)CC(C)C)C(=O)[NH]1NCCC[C@@H]1C(=O)[NH][C@H](C)c1nc(C(O)=O)cs1
+134,[147  18 130 110],C[NH2][C@@H](CC(=O)[NH]c1ccc(O)cc1C(=O)[NH]/C=C\C(=O)[NH](C)[C@H](/C=C(\C)C(O)=O)C(C)C)C(O)=O
+135,[ 45  23 128 143],C[C@H](C(=O)[NH][C@H](C)C(=O)C(C)(C)C(O)=O)[C@H]([NH]C(=O)[C@H](C)[C@@H](O)[C@@H]1CCC[NH]1C(=O)/C=C\[C@@H](N)CO)C(O)=O
+136,[121  84  38  31],CC[C@@H](C)[C@@H]([NH]C(=O)[C@@H](CC(=O)N[C@]([NH2]C)(C(O)=O)C(C)C)[NH]C(=O)[C@H]1C[C@H](Cl)CN[NH2]1)c1nc(C(O)=O)cs1
+137,[72 60 17 31],C/C=C(\[NH]C(=O)C(=O)[C@@H]([NH]C(=O)C(O)[NH](C)C(=O)[C@H]([NH2]C)[C@@H](C)CC)[C@@H](C)CC)C(O)=O
