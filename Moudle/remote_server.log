@@ -1,0 +1,822 @@
+ 2023-03-05 09:54:23,581 - INFO - [文件：remote_server.py 第74行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 09:54:23,581 - INFO - [文件：remote_server.py 第75行 方法：sftpClient] - 2023-03-05 09:54:23
+ 2023-03-05 09:54:23,581 - INFO - [文件：remote_server.py 第76行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 09:54:23,581 - INFO - [文件：remote_server.py 第78行 方法：sftpClient] - 本地配体列表文件:/home/b519/wq/rlg/ledock/ligands/0/1/ligands
+ 2023-03-05 09:54:23,581 - INFO - [文件：remote_server.py 第87行 方法：sftpClient] - 服务器工作目录:/lustre/home/weizhiqiang/1
+ 2023-03-05 09:54:23,581 - INFO - [文件：remote_server.py 第91行 方法：sftpClient] - 服务器配体文件路径:/lustre/home/weizhiqiang/1/ligand
+ 2023-03-05 21:51:32,955 - INFO - [文件：remote_server.py 第75行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 21:51:32,955 - INFO - [文件：remote_server.py 第76行 方法：sftpClient] - 2023-03-05 21:51:32
+ 2023-03-05 21:51:32,956 - INFO - [文件：remote_server.py 第77行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 21:51:32,956 - INFO - [文件：remote_server.py 第79行 方法：sftpClient] - 本地配体列表文件:/home/b519/wq/rlg/ledock/ligands/0/1/ligands
+ 2023-03-05 21:51:32,956 - INFO - [文件：remote_server.py 第88行 方法：sftpClient] - 服务器工作目录:/lustre/home/weizhiqiang/1
+ 2023-03-05 21:51:32,956 - INFO - [文件：remote_server.py 第92行 方法：sftpClient] - 服务器配体文件路径:/lustre/home/weizhiqiang/1/ligand
+ 2023-03-05 21:51:32,958 - DEBUG - [文件：transport.py 第1819行 方法：_log] - starting thread (client mode): 0xc707bf10
+ 2023-03-05 21:51:32,958 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Local version/idstring: SSH-2.0-paramiko_2.8.1
+ 2023-03-05 21:51:33,145 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+ 2023-03-05 21:51:33,145 - INFO - [文件：transport.py 第1819行 方法：_log] - Connected (version 2.0, client OpenSSH_7.4)
+ 2023-03-05 21:51:33,150 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+ 2023-03-05 21:51:33,150 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Kex agreed: curve25519-sha256@libssh.org
+ 2023-03-05 21:51:33,150 - DEBUG - [文件：transport.py 第1819行 方法：_log] - HostKey agreed: ssh-ed25519
+ 2023-03-05 21:51:33,151 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Cipher agreed: aes128-ctr
+ 2023-03-05 21:51:33,151 - DEBUG - [文件：transport.py 第1819行 方法：_log] - MAC agreed: hmac-sha2-256
+ 2023-03-05 21:51:33,151 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Compression agreed: zlib@openssh.com
+ 2023-03-05 21:51:33,169 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+ 2023-03-05 21:51:33,170 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switch to new keys ...
+ 2023-03-05 21:51:33,171 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Adding ssh-ed25519 host key for 10.130.2.222: b'ab47368e1b22be21994c6373fcd51e78'
+ 2023-03-05 21:51:33,210 - DEBUG - [文件：transport.py 第1819行 方法：_log] - userauth is OK
+ 2023-03-05 21:51:33,269 - INFO - [文件：transport.py 第1819行 方法：_log] - Authentication (password) successful!
+ 2023-03-05 21:51:33,269 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on outbound compression ...
+ 2023-03-05 21:51:33,269 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on inbound compression ...
+ 2023-03-05 21:51:33,270 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet in: 32768 bytes
+ 2023-03-05 21:51:33,309 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Received global request "hostkeys-00@openssh.com"
+ 2023-03-05 21:51:33,309 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Rejecting "hostkeys-00@openssh.com" global request from server.
+ 2023-03-05 21:51:33,350 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet out: 32768 bytes
+ 2023-03-05 21:51:33,350 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 0 opened.
+ 2023-03-05 21:51:33,356 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Sesch channel 0 request ok
+ 2023-03-05 21:51:33,647 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] Opened sftp connection (server version 3)
+ 2023-03-05 21:51:37,653 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet in: 32768 bytes
+ 2023-03-05 21:51:37,655 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet out: 32768 bytes
+ 2023-03-05 21:51:37,655 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 1 opened.
+ 2023-03-05 21:51:37,660 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Sesch channel 1 request ok
+ 2023-03-05 21:51:37,660 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF sent (1)
+ 2023-03-05 21:51:38,015 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF received (1)
+ 2023-03-05 21:51:40,664 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/ligand/ligandFile.zip', 'wb')
+ 2023-03-05 21:51:40,666 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/ligand/ligandFile.zip', 'wb') -> 00000000
+ 2023-03-05 21:51:40,667 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 21:51:40,669 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/ligand/ligandFile.zip')
+ 2023-03-05 21:51:40,671 - INFO - [文件：remote_server.py 第148行 方法：sftpClient] - 上传：/home/b519/wq/rlg/ledock/ligands/0/1/ligands.zip
+ 2023-03-05 21:51:40,671 - INFO - [文件：remote_server.py 第155行 方法：sftpClient] - 上传配体文件使用的总时间：0:00:00.007315
+ 2023-03-05 21:51:40,671 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] sftp session closed.
+ 2023-03-05 21:53:48,687 - INFO - [文件：remote_server.py 第75行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 21:53:48,688 - INFO - [文件：remote_server.py 第76行 方法：sftpClient] - 2023-03-05 21:53:48
+ 2023-03-05 21:53:48,688 - INFO - [文件：remote_server.py 第77行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 21:53:48,688 - INFO - [文件：remote_server.py 第79行 方法：sftpClient] - 本地配体列表文件:/home/b519/wq/rlg/ledock/ligands/0/1/ligands
+ 2023-03-05 21:53:48,688 - INFO - [文件：remote_server.py 第88行 方法：sftpClient] - 服务器工作目录:/lustre/home/weizhiqiang/1
+ 2023-03-05 21:53:48,688 - INFO - [文件：remote_server.py 第92行 方法：sftpClient] - 服务器配体文件路径:/lustre/home/weizhiqiang/1/ligand
+ 2023-03-05 21:53:48,689 - DEBUG - [文件：transport.py 第1819行 方法：_log] - starting thread (client mode): 0xfa7e1f10
+ 2023-03-05 21:53:48,690 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Local version/idstring: SSH-2.0-paramiko_2.8.1
+ 2023-03-05 21:53:48,876 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+ 2023-03-05 21:53:48,876 - INFO - [文件：transport.py 第1819行 方法：_log] - Connected (version 2.0, client OpenSSH_7.4)
+ 2023-03-05 21:53:48,881 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+ 2023-03-05 21:53:48,881 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Kex agreed: curve25519-sha256@libssh.org
+ 2023-03-05 21:53:48,882 - DEBUG - [文件：transport.py 第1819行 方法：_log] - HostKey agreed: ssh-ed25519
+ 2023-03-05 21:53:48,882 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Cipher agreed: aes128-ctr
+ 2023-03-05 21:53:48,882 - DEBUG - [文件：transport.py 第1819行 方法：_log] - MAC agreed: hmac-sha2-256
+ 2023-03-05 21:53:48,882 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Compression agreed: zlib@openssh.com
+ 2023-03-05 21:53:48,901 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+ 2023-03-05 21:53:48,901 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switch to new keys ...
+ 2023-03-05 21:53:48,902 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Adding ssh-ed25519 host key for 10.130.2.222: b'ab47368e1b22be21994c6373fcd51e78'
+ 2023-03-05 21:53:48,941 - DEBUG - [文件：transport.py 第1819行 方法：_log] - userauth is OK
+ 2023-03-05 21:53:49,000 - INFO - [文件：transport.py 第1819行 方法：_log] - Authentication (password) successful!
+ 2023-03-05 21:53:49,001 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on outbound compression ...
+ 2023-03-05 21:53:49,001 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on inbound compression ...
+ 2023-03-05 21:53:49,001 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet in: 32768 bytes
+ 2023-03-05 21:53:49,041 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Received global request "hostkeys-00@openssh.com"
+ 2023-03-05 21:53:49,042 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Rejecting "hostkeys-00@openssh.com" global request from server.
+ 2023-03-05 21:53:49,082 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet out: 32768 bytes
+ 2023-03-05 21:53:49,082 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 0 opened.
+ 2023-03-05 21:53:49,087 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Sesch channel 0 request ok
+ 2023-03-05 21:53:49,363 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] Opened sftp connection (server version 3)
+ 2023-03-05 21:53:53,370 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet in: 32768 bytes
+ 2023-03-05 21:53:53,371 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet out: 32768 bytes
+ 2023-03-05 21:53:53,371 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 1 opened.
+ 2023-03-05 21:53:53,376 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Sesch channel 1 request ok
+ 2023-03-05 21:53:53,377 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF sent (1)
+ 2023-03-05 21:53:53,589 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF received (1)
+ 2023-03-05 21:53:56,380 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/ligand/ligandFile.zip', 'wb')
+ 2023-03-05 21:53:56,383 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/ligand/ligandFile.zip', 'wb') -> 00000000
+ 2023-03-05 21:53:56,384 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 21:53:56,386 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/ligand/ligandFile.zip')
+ 2023-03-05 21:53:56,388 - INFO - [文件：remote_server.py 第148行 方法：sftpClient] - 上传：/home/b519/wq/rlg/ledock/ligands/0/1/ligands.zip
+ 2023-03-05 21:53:56,388 - INFO - [文件：remote_server.py 第155行 方法：sftpClient] - 上传配体文件使用的总时间：0:00:00.008093
+ 2023-03-05 21:53:56,388 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/prepare_files.py', 'wb')
+ 2023-03-05 21:53:56,391 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/prepare_files.py', 'wb') -> 00000000
+ 2023-03-05 21:53:56,398 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 21:53:56,400 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/prepare_files.py')
+ 2023-03-05 21:53:56,402 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/mpi_ledock.py', 'wb')
+ 2023-03-05 21:53:56,404 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/mpi_ledock.py', 'wb') -> 00000000
+ 2023-03-05 21:53:56,404 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 21:53:56,406 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/mpi_ledock.py')
+ 2023-03-05 21:53:56,408 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/dock.sh', 'wb')
+ 2023-03-05 21:53:56,410 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/dock.sh', 'wb') -> 00000000
+ 2023-03-05 21:53:56,410 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 21:53:56,412 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/dock.sh')
+ 2023-03-05 21:53:56,414 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet in: 32768 bytes
+ 2023-03-05 21:53:56,414 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet out: 32768 bytes
+ 2023-03-05 21:53:56,415 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 2 opened.
+ 2023-03-05 21:53:56,420 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Sesch channel 2 request ok
+ 2023-03-05 21:53:56,421 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] EOF sent (2)
+ 2023-03-05 21:53:56,421 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/delete.sh', 'wb')
+ 2023-03-05 21:53:56,462 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/delete.sh', 'wb') -> 00000000
+ 2023-03-05 21:53:56,463 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 21:53:56,503 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/delete.sh')
+ 2023-03-05 21:53:56,505 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 3] Max packet in: 32768 bytes
+ 2023-03-05 21:53:56,506 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 3] Max packet out: 32768 bytes
+ 2023-03-05 21:53:56,506 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 3 opened.
+ 2023-03-05 21:53:56,511 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 3] Sesch channel 3 request ok
+ 2023-03-05 21:53:56,512 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 3] EOF sent (3)
+ 2023-03-05 21:53:56,512 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/run.sh', 'wb')
+ 2023-03-05 21:53:56,554 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/run.sh', 'wb') -> 00000000
+ 2023-03-05 21:53:56,554 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 21:53:56,595 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/run.sh')
+ 2023-03-05 21:53:56,637 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Ignoring message for dead channel 2
+ 2023-03-05 21:53:56,637 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Ignoring message for dead channel 2
+ 2023-03-05 21:53:56,731 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Ignoring message for dead channel 3
+ 2023-03-05 21:53:56,732 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Ignoring message for dead channel 3
+ 2023-03-05 21:54:00,601 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 4] Max packet in: 32768 bytes
+ 2023-03-05 21:54:00,602 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 4] Max packet out: 32768 bytes
+ 2023-03-05 21:54:00,603 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 4 opened.
+ 2023-03-05 21:54:00,608 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 4] Sesch channel 4 request ok
+ 2023-03-05 21:54:00,608 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 4] EOF sent (4)
+ 2023-03-05 21:54:00,820 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 4] EOF received (4)
+ 2023-03-05 21:54:03,612 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 5] Max packet in: 32768 bytes
+ 2023-03-05 21:54:03,613 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 5] Max packet out: 32768 bytes
+ 2023-03-05 21:54:03,613 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 5 opened.
+ 2023-03-05 21:54:03,617 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 5] Sesch channel 5 request ok
+ 2023-03-05 21:54:04,426 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 5] EOF received (5)
+ 2023-03-05 21:54:04,427 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 6] Max packet in: 32768 bytes
+ 2023-03-05 21:54:04,428 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 5] EOF sent (5)
+ 2023-03-05 21:54:04,429 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 6] Max packet out: 32768 bytes
+ 2023-03-05 21:54:04,429 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 6 opened.
+ 2023-03-05 21:54:04,474 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 6] Sesch channel 6 request ok
+ 2023-03-05 21:54:04,732 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 6] EOF received (6)
+ 2023-03-05 21:54:04,733 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 6] EOF sent (6)
+ 2023-03-05 21:54:06,736 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 7] Max packet in: 32768 bytes
+ 2023-03-05 21:54:06,737 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 7] Max packet out: 32768 bytes
+ 2023-03-05 21:54:06,737 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 7 opened.
+ 2023-03-05 21:54:06,741 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 7] Sesch channel 7 request ok
+ 2023-03-05 21:54:07,009 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 7] EOF received (7)
+ 2023-03-05 21:54:07,010 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 7] EOF sent (7)
+ 2023-03-05 21:54:09,013 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 8] Max packet in: 32768 bytes
+ 2023-03-05 21:54:09,014 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 8] Max packet out: 32768 bytes
+ 2023-03-05 21:54:09,014 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 8 opened.
+ 2023-03-05 21:54:09,020 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 8] Sesch channel 8 request ok
+ 2023-03-05 21:54:09,326 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 8] EOF received (8)
+ 2023-03-05 21:54:09,326 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 8] EOF sent (8)
+ 2023-03-05 21:54:11,329 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 9] Max packet in: 32768 bytes
+ 2023-03-05 21:54:11,330 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 9] Max packet out: 32768 bytes
+ 2023-03-05 21:54:11,331 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 9 opened.
+ 2023-03-05 21:54:11,336 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 9] Sesch channel 9 request ok
+ 2023-03-05 21:54:11,584 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 9] EOF received (9)
+ 2023-03-05 21:54:11,585 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 9] EOF sent (9)
+ 2023-03-05 21:54:13,588 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 10] Max packet in: 32768 bytes
+ 2023-03-05 21:54:13,589 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 10] Max packet out: 32768 bytes
+ 2023-03-05 21:54:13,589 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 10 opened.
+ 2023-03-05 21:54:13,594 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 10] Sesch channel 10 request ok
+ 2023-03-05 21:54:13,860 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 10] EOF received (10)
+ 2023-03-05 21:54:13,861 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 10] EOF sent (10)
+ 2023-03-05 21:54:15,864 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 11] Max packet in: 32768 bytes
+ 2023-03-05 21:54:15,865 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 11] Max packet out: 32768 bytes
+ 2023-03-05 21:54:15,865 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 11 opened.
+ 2023-03-05 21:54:15,870 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 11] Sesch channel 11 request ok
+ 2023-03-05 21:54:16,176 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 11] EOF received (11)
+ 2023-03-05 21:54:16,177 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 11] EOF sent (11)
+ 2023-03-05 21:54:18,180 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 12] Max packet in: 32768 bytes
+ 2023-03-05 21:54:18,181 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 12] Max packet out: 32768 bytes
+ 2023-03-05 21:54:18,181 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 12 opened.
+ 2023-03-05 21:54:18,186 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 12] Sesch channel 12 request ok
+ 2023-03-05 21:54:18,453 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 12] EOF received (12)
+ 2023-03-05 21:54:18,453 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 12] EOF sent (12)
+ 2023-03-05 21:54:20,456 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 13] Max packet in: 32768 bytes
+ 2023-03-05 21:54:20,457 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 13] Max packet out: 32768 bytes
+ 2023-03-05 21:54:20,458 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 13 opened.
+ 2023-03-05 21:54:20,463 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 13] Sesch channel 13 request ok
+ 2023-03-05 21:54:20,729 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 13] EOF received (13)
+ 2023-03-05 21:54:20,729 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 13] EOF sent (13)
+ 2023-03-05 21:54:22,732 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 14] Max packet in: 32768 bytes
+ 2023-03-05 21:54:22,733 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 14] Max packet out: 32768 bytes
+ 2023-03-05 21:54:22,733 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 14 opened.
+ 2023-03-05 21:54:22,738 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 14] Sesch channel 14 request ok
+ 2023-03-05 21:54:23,009 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 14] EOF received (14)
+ 2023-03-05 21:54:23,009 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 14] EOF sent (14)
+ 2023-03-05 21:54:25,012 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 15] Max packet in: 32768 bytes
+ 2023-03-05 21:54:25,013 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 15] Max packet out: 32768 bytes
+ 2023-03-05 21:54:25,013 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 15 opened.
+ 2023-03-05 21:54:25,019 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 15] Sesch channel 15 request ok
+ 2023-03-05 21:54:25,296 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 15] EOF received (15)
+ 2023-03-05 21:54:25,297 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 15] EOF sent (15)
+ 2023-03-05 21:54:27,300 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 16] Max packet in: 32768 bytes
+ 2023-03-05 21:54:27,301 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 16] Max packet out: 32768 bytes
+ 2023-03-05 21:54:27,301 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 16 opened.
+ 2023-03-05 21:54:27,306 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 16] Sesch channel 16 request ok
+ 2023-03-05 21:54:27,587 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 16] EOF received (16)
+ 2023-03-05 21:54:27,587 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 16] EOF sent (16)
+ 2023-03-05 21:54:29,590 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 17] Max packet in: 32768 bytes
+ 2023-03-05 21:54:29,591 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 17] Max packet out: 32768 bytes
+ 2023-03-05 21:54:29,591 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 17 opened.
+ 2023-03-05 21:54:29,597 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 17] Sesch channel 17 request ok
+ 2023-03-05 21:54:29,865 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 17] EOF received (17)
+ 2023-03-05 21:54:29,865 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 17] EOF sent (17)
+ 2023-03-05 21:54:31,868 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 18] Max packet in: 32768 bytes
+ 2023-03-05 21:54:31,869 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 18] Max packet out: 32768 bytes
+ 2023-03-05 21:54:31,870 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 18 opened.
+ 2023-03-05 21:54:31,875 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 18] Sesch channel 18 request ok
+ 2023-03-05 21:54:32,134 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 18] EOF received (18)
+ 2023-03-05 21:54:32,135 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 18] EOF sent (18)
+ 2023-03-05 21:54:34,138 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 19] Max packet in: 32768 bytes
+ 2023-03-05 21:54:34,139 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 19] Max packet out: 32768 bytes
+ 2023-03-05 21:54:34,139 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 19 opened.
+ 2023-03-05 21:54:34,144 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 19] Sesch channel 19 request ok
+ 2023-03-05 21:54:34,390 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 19] EOF received (19)
+ 2023-03-05 21:54:34,390 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 19] EOF sent (19)
+ 2023-03-05 21:54:36,393 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 20] Max packet in: 32768 bytes
+ 2023-03-05 21:54:36,394 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 20] Max packet out: 32768 bytes
+ 2023-03-05 21:54:36,394 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 20 opened.
+ 2023-03-05 21:54:36,399 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 20] Sesch channel 20 request ok
+ 2023-03-05 21:54:36,665 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 20] EOF received (20)
+ 2023-03-05 21:54:36,666 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 20] EOF sent (20)
+ 2023-03-05 21:54:38,669 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 21] Max packet in: 32768 bytes
+ 2023-03-05 21:54:38,670 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 21] Max packet out: 32768 bytes
+ 2023-03-05 21:54:38,670 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 21 opened.
+ 2023-03-05 21:54:38,676 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 21] Sesch channel 21 request ok
+ 2023-03-05 21:54:38,945 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 21] EOF received (21)
+ 2023-03-05 21:54:38,946 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 21] EOF sent (21)
+ 2023-03-05 21:54:40,949 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 22] Max packet in: 32768 bytes
+ 2023-03-05 21:54:40,950 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 22] Max packet out: 32768 bytes
+ 2023-03-05 21:54:40,950 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 22 opened.
+ 2023-03-05 21:54:40,955 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 22] Sesch channel 22 request ok
+ 2023-03-05 21:54:41,218 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 22] EOF received (22)
+ 2023-03-05 21:54:41,219 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 22] EOF sent (22)
+ 2023-03-05 21:54:43,222 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 23] Max packet in: 32768 bytes
+ 2023-03-05 21:54:43,223 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 23] Max packet out: 32768 bytes
+ 2023-03-05 21:54:43,223 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 23 opened.
+ 2023-03-05 21:54:43,229 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 23] Sesch channel 23 request ok
+ 2023-03-05 21:54:43,504 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 23] EOF received (23)
+ 2023-03-05 21:54:43,504 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 23] EOF sent (23)
+ 2023-03-05 21:54:45,507 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 24] Max packet in: 32768 bytes
+ 2023-03-05 21:54:45,508 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 24] Max packet out: 32768 bytes
+ 2023-03-05 21:54:45,509 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 24 opened.
+ 2023-03-05 21:54:45,514 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 24] Sesch channel 24 request ok
+ 2023-03-05 21:54:45,778 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 24] EOF received (24)
+ 2023-03-05 21:54:45,779 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 24] EOF sent (24)
+ 2023-03-05 21:54:47,782 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 25] Max packet in: 32768 bytes
+ 2023-03-05 21:54:47,783 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 25] Max packet out: 32768 bytes
+ 2023-03-05 21:54:47,783 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 25 opened.
+ 2023-03-05 21:54:47,788 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 25] Sesch channel 25 request ok
+ 2023-03-05 21:54:48,059 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 25] EOF received (25)
+ 2023-03-05 21:54:48,060 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 25] EOF sent (25)
+ 2023-03-05 21:54:50,063 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 26] Max packet in: 32768 bytes
+ 2023-03-05 21:54:50,064 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 26] Max packet out: 32768 bytes
+ 2023-03-05 21:54:50,064 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 26 opened.
+ 2023-03-05 21:54:50,069 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 26] Sesch channel 26 request ok
+ 2023-03-05 21:54:50,342 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 26] EOF received (26)
+ 2023-03-05 21:54:50,342 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 26] EOF sent (26)
+ 2023-03-05 21:54:52,345 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 27] Max packet in: 32768 bytes
+ 2023-03-05 21:54:52,346 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 27] Max packet out: 32768 bytes
+ 2023-03-05 21:54:52,347 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 27 opened.
+ 2023-03-05 21:54:52,352 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 27] Sesch channel 27 request ok
+ 2023-03-05 21:54:52,610 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 27] EOF received (27)
+ 2023-03-05 21:54:52,611 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 27] EOF sent (27)
+ 2023-03-05 21:54:54,614 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 28] Max packet in: 32768 bytes
+ 2023-03-05 21:54:54,615 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 28] Max packet out: 32768 bytes
+ 2023-03-05 21:54:54,615 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 28 opened.
+ 2023-03-05 21:54:54,621 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 28] Sesch channel 28 request ok
+ 2023-03-05 21:54:54,888 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 28] EOF received (28)
+ 2023-03-05 21:54:54,889 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 28] EOF sent (28)
+ 2023-03-05 21:54:56,892 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 29] Max packet in: 32768 bytes
+ 2023-03-05 21:54:56,893 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 29] Max packet out: 32768 bytes
+ 2023-03-05 21:54:56,893 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 29 opened.
+ 2023-03-05 21:54:56,899 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 29] Sesch channel 29 request ok
+ 2023-03-05 21:54:57,158 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 29] EOF received (29)
+ 2023-03-05 21:54:57,158 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 29] EOF sent (29)
+ 2023-03-05 21:54:59,161 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 30] Max packet in: 32768 bytes
+ 2023-03-05 21:54:59,162 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 30] Max packet out: 32768 bytes
+ 2023-03-05 21:54:59,162 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 30 opened.
+ 2023-03-05 21:54:59,168 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 30] Sesch channel 30 request ok
+ 2023-03-05 21:54:59,442 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 30] EOF received (30)
+ 2023-03-05 21:54:59,443 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 30] EOF sent (30)
+ 2023-03-05 21:55:01,446 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 31] Max packet in: 32768 bytes
+ 2023-03-05 21:55:01,447 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 31] Max packet out: 32768 bytes
+ 2023-03-05 21:55:01,447 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 31 opened.
+ 2023-03-05 21:55:01,452 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 31] Sesch channel 31 request ok
+ 2023-03-05 21:55:01,695 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 31] EOF received (31)
+ 2023-03-05 21:55:01,695 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 31] EOF sent (31)
+ 2023-03-05 21:55:03,698 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 32] Max packet in: 32768 bytes
+ 2023-03-05 21:55:03,699 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 32] Max packet out: 32768 bytes
+ 2023-03-05 21:55:03,699 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 32 opened.
+ 2023-03-05 21:55:03,705 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 32] Sesch channel 32 request ok
+ 2023-03-05 21:55:03,960 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 32] EOF received (32)
+ 2023-03-05 21:55:03,960 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 32] EOF sent (32)
+ 2023-03-05 21:55:05,963 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 33] Max packet in: 32768 bytes
+ 2023-03-05 21:55:05,964 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 33] Max packet out: 32768 bytes
+ 2023-03-05 21:55:05,964 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 33 opened.
+ 2023-03-05 21:55:05,969 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 33] Sesch channel 33 request ok
+ 2023-03-05 21:55:06,239 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 33] EOF received (33)
+ 2023-03-05 21:55:06,239 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 33] EOF sent (33)
+ 2023-03-05 21:55:08,242 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 34] Max packet in: 32768 bytes
+ 2023-03-05 21:55:08,243 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 34] Max packet out: 32768 bytes
+ 2023-03-05 21:55:08,243 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 34 opened.
+ 2023-03-05 21:55:08,249 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 34] Sesch channel 34 request ok
+ 2023-03-05 21:55:08,505 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 34] EOF received (34)
+ 2023-03-05 21:55:08,505 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 34] EOF sent (34)
+ 2023-03-05 21:55:10,508 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 35] Max packet in: 32768 bytes
+ 2023-03-05 21:55:10,509 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 35] Max packet out: 32768 bytes
+ 2023-03-05 21:55:10,509 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 35 opened.
+ 2023-03-05 21:55:10,515 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 35] Sesch channel 35 request ok
+ 2023-03-05 21:55:10,786 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 35] EOF received (35)
+ 2023-03-05 21:55:10,787 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 35] EOF sent (35)
+ 2023-03-05 21:55:12,790 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 36] Max packet in: 32768 bytes
+ 2023-03-05 21:55:12,791 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 36] Max packet out: 32768 bytes
+ 2023-03-05 21:55:12,791 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 36 opened.
+ 2023-03-05 21:55:12,797 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 36] Sesch channel 36 request ok
+ 2023-03-05 21:55:13,063 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 36] EOF received (36)
+ 2023-03-05 21:55:13,063 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 36] EOF sent (36)
+ 2023-03-05 21:55:15,066 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 37] Max packet in: 32768 bytes
+ 2023-03-05 21:55:15,067 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 37] Max packet out: 32768 bytes
+ 2023-03-05 21:55:15,067 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 37 opened.
+ 2023-03-05 21:55:15,073 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 37] Sesch channel 37 request ok
+ 2023-03-05 21:55:15,351 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 37] EOF received (37)
+ 2023-03-05 21:55:15,352 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 37] EOF sent (37)
+ 2023-03-05 21:55:17,355 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 38] Max packet in: 32768 bytes
+ 2023-03-05 21:55:17,356 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 38] Max packet out: 32768 bytes
+ 2023-03-05 21:55:17,356 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 38 opened.
+ 2023-03-05 21:55:17,361 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 38] Sesch channel 38 request ok
+ 2023-03-05 21:55:17,619 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 38] EOF received (38)
+ 2023-03-05 21:55:17,620 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 38] EOF sent (38)
+ 2023-03-05 21:55:19,623 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 39] Max packet in: 32768 bytes
+ 2023-03-05 21:55:19,624 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 39] Max packet out: 32768 bytes
+ 2023-03-05 21:55:19,624 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 39 opened.
+ 2023-03-05 21:55:19,630 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 39] Sesch channel 39 request ok
+ 2023-03-05 21:55:19,900 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 39] EOF received (39)
+ 2023-03-05 21:55:19,901 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 39] EOF sent (39)
+ 2023-03-05 21:55:21,904 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 40] Max packet in: 32768 bytes
+ 2023-03-05 21:55:21,905 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 40] Max packet out: 32768 bytes
+ 2023-03-05 21:55:21,905 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 40 opened.
+ 2023-03-05 21:55:21,911 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 40] Sesch channel 40 request ok
+ 2023-03-05 21:55:22,181 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 40] EOF received (40)
+ 2023-03-05 21:55:22,181 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 40] EOF sent (40)
+ 2023-03-05 21:55:24,184 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 41] Max packet in: 32768 bytes
+ 2023-03-05 21:55:24,185 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 41] Max packet out: 32768 bytes
+ 2023-03-05 21:55:24,185 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 41 opened.
+ 2023-03-05 21:55:24,191 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 41] Sesch channel 41 request ok
+ 2023-03-05 21:55:24,457 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 41] EOF received (41)
+ 2023-03-05 21:55:24,458 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 41] EOF sent (41)
+ 2023-03-05 21:55:26,461 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 42] Max packet in: 32768 bytes
+ 2023-03-05 21:55:26,462 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 42] Max packet out: 32768 bytes
+ 2023-03-05 21:55:26,467 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 42 opened.
+ 2023-03-05 21:55:26,472 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 42] Sesch channel 42 request ok
+ 2023-03-05 21:55:26,745 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 42] EOF received (42)
+ 2023-03-05 21:55:26,746 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 42] EOF sent (42)
+ 2023-03-05 21:55:28,749 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 43] Max packet in: 32768 bytes
+ 2023-03-05 21:55:28,750 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 43] Max packet out: 32768 bytes
+ 2023-03-05 21:55:28,750 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 43 opened.
+ 2023-03-05 21:55:28,755 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 43] Sesch channel 43 request ok
+ 2023-03-05 21:55:29,038 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 43] EOF received (43)
+ 2023-03-05 21:55:29,038 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 43] EOF sent (43)
+ 2023-03-05 21:55:31,041 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 44] Max packet in: 32768 bytes
+ 2023-03-05 21:55:31,042 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 44] Max packet out: 32768 bytes
+ 2023-03-05 21:55:31,042 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 44 opened.
+ 2023-03-05 21:55:31,048 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 44] Sesch channel 44 request ok
+ 2023-03-05 21:55:31,314 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 44] EOF received (44)
+ 2023-03-05 21:55:31,315 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 44] EOF sent (44)
+ 2023-03-05 21:55:33,318 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 45] Max packet in: 32768 bytes
+ 2023-03-05 21:55:33,319 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 45] Max packet out: 32768 bytes
+ 2023-03-05 21:55:33,319 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 45 opened.
+ 2023-03-05 21:55:33,326 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 45] Sesch channel 45 request ok
+ 2023-03-05 21:55:33,601 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 45] EOF received (45)
+ 2023-03-05 21:55:33,602 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 45] EOF sent (45)
+ 2023-03-05 21:55:35,605 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 46] Max packet in: 32768 bytes
+ 2023-03-05 21:55:35,606 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 46] Max packet out: 32768 bytes
+ 2023-03-05 21:55:35,606 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 46 opened.
+ 2023-03-05 21:55:35,612 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 46] Sesch channel 46 request ok
+ 2023-03-05 21:55:35,878 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 46] EOF received (46)
+ 2023-03-05 21:55:35,879 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 46] EOF sent (46)
+ 2023-03-05 21:55:37,882 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 47] Max packet in: 32768 bytes
+ 2023-03-05 21:55:37,883 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 47] Max packet out: 32768 bytes
+ 2023-03-05 21:55:37,883 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 47 opened.
+ 2023-03-05 21:55:37,889 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 47] Sesch channel 47 request ok
+ 2023-03-05 21:55:38,202 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 47] EOF received (47)
+ 2023-03-05 21:55:38,202 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 47] EOF sent (47)
+ 2023-03-05 21:55:40,205 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 48] Max packet in: 32768 bytes
+ 2023-03-05 21:55:40,206 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 48] Max packet out: 32768 bytes
+ 2023-03-05 21:55:40,206 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 48 opened.
+ 2023-03-05 21:55:40,211 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 48] Sesch channel 48 request ok
+ 2023-03-05 21:55:40,488 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 48] EOF received (48)
+ 2023-03-05 21:55:40,488 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 48] EOF sent (48)
+ 2023-03-05 21:55:42,491 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 49] Max packet in: 32768 bytes
+ 2023-03-05 21:55:42,492 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 49] Max packet out: 32768 bytes
+ 2023-03-05 21:55:42,492 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 49 opened.
+ 2023-03-05 21:55:42,498 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 49] Sesch channel 49 request ok
+ 2023-03-05 21:55:42,754 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 49] EOF received (49)
+ 2023-03-05 21:55:42,755 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 49] EOF sent (49)
+ 2023-03-05 21:55:44,758 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 50] Max packet in: 32768 bytes
+ 2023-03-05 21:55:44,759 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 50] Max packet out: 32768 bytes
+ 2023-03-05 21:55:44,759 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 50 opened.
+ 2023-03-05 21:55:44,765 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 50] Sesch channel 50 request ok
+ 2023-03-05 21:55:45,024 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 50] EOF received (50)
+ 2023-03-05 21:55:45,025 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 50] EOF sent (50)
+ 2023-03-05 21:55:47,028 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 51] Max packet in: 32768 bytes
+ 2023-03-05 21:55:47,029 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 51] Max packet out: 32768 bytes
+ 2023-03-05 21:55:47,029 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 51 opened.
+ 2023-03-05 21:55:47,035 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 51] Sesch channel 51 request ok
+ 2023-03-05 21:55:47,310 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 51] EOF received (51)
+ 2023-03-05 21:55:47,311 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 51] EOF sent (51)
+ 2023-03-05 21:55:49,314 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 52] Max packet in: 32768 bytes
+ 2023-03-05 21:55:49,315 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 52] Max packet out: 32768 bytes
+ 2023-03-05 21:55:49,315 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 52 opened.
+ 2023-03-05 21:55:49,321 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 52] Sesch channel 52 request ok
+ 2023-03-05 21:55:49,574 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 52] EOF received (52)
+ 2023-03-05 21:55:49,574 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 52] EOF sent (52)
+ 2023-03-05 21:55:51,578 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 53] Max packet in: 32768 bytes
+ 2023-03-05 21:55:51,579 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 53] Max packet out: 32768 bytes
+ 2023-03-05 21:55:51,579 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 53 opened.
+ 2023-03-05 21:55:51,585 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 53] Sesch channel 53 request ok
+ 2023-03-05 21:55:51,848 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 53] EOF received (53)
+ 2023-03-05 21:55:51,849 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 53] EOF sent (53)
+ 2023-03-05 21:55:53,852 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 54] Max packet in: 32768 bytes
+ 2023-03-05 21:55:53,853 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 54] Max packet out: 32768 bytes
+ 2023-03-05 21:55:53,853 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 54 opened.
+ 2023-03-05 21:55:53,859 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 54] Sesch channel 54 request ok
+ 2023-03-05 21:55:54,124 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 54] EOF received (54)
+ 2023-03-05 21:55:54,125 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 54] EOF sent (54)
+ 2023-03-05 21:55:56,128 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 55] Max packet in: 32768 bytes
+ 2023-03-05 21:55:56,129 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 55] Max packet out: 32768 bytes
+ 2023-03-05 21:55:56,129 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 55 opened.
+ 2023-03-05 21:55:56,134 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 55] Sesch channel 55 request ok
+ 2023-03-05 21:55:56,382 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 55] EOF received (55)
+ 2023-03-05 21:55:56,382 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 55] EOF sent (55)
+ 2023-03-05 21:55:58,385 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 56] Max packet in: 32768 bytes
+ 2023-03-05 21:55:58,386 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 56] Max packet out: 32768 bytes
+ 2023-03-05 21:55:58,386 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 56 opened.
+ 2023-03-05 21:55:58,392 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 56] Sesch channel 56 request ok
+ 2023-03-05 21:55:58,657 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 56] EOF received (56)
+ 2023-03-05 21:55:58,657 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 56] EOF sent (56)
+ 2023-03-05 21:56:00,660 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 57] Max packet in: 32768 bytes
+ 2023-03-05 21:56:00,661 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 57] Max packet out: 32768 bytes
+ 2023-03-05 21:56:00,661 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 57 opened.
+ 2023-03-05 21:56:00,667 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 57] Sesch channel 57 request ok
+ 2023-03-05 21:56:00,945 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 57] EOF received (57)
+ 2023-03-05 21:56:00,945 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 57] EOF sent (57)
+ 2023-03-05 21:56:02,948 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 58] Max packet in: 32768 bytes
+ 2023-03-05 21:56:02,949 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 58] Max packet out: 32768 bytes
+ 2023-03-05 21:56:02,950 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 58 opened.
+ 2023-03-05 21:56:02,956 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 58] Sesch channel 58 request ok
+ 2023-03-05 21:56:03,218 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 58] EOF received (58)
+ 2023-03-05 21:56:03,218 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 58] EOF sent (58)
+ 2023-03-05 21:56:05,221 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 59] Max packet in: 32768 bytes
+ 2023-03-05 21:56:05,222 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 59] Max packet out: 32768 bytes
+ 2023-03-05 21:56:05,222 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 59 opened.
+ 2023-03-05 21:56:05,228 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 59] Sesch channel 59 request ok
+ 2023-03-05 21:56:05,512 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 59] EOF received (59)
+ 2023-03-05 21:56:05,512 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 59] EOF sent (59)
+ 2023-03-05 21:56:07,516 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 60] Max packet in: 32768 bytes
+ 2023-03-05 21:56:07,517 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 60] Max packet out: 32768 bytes
+ 2023-03-05 21:56:07,517 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 60 opened.
+ 2023-03-05 21:56:07,522 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 60] Sesch channel 60 request ok
+ 2023-03-05 21:56:07,794 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 60] EOF received (60)
+ 2023-03-05 21:56:07,794 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 60] EOF sent (60)
+ 2023-03-05 21:56:09,797 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 61] Max packet in: 32768 bytes
+ 2023-03-05 21:56:09,798 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 61] Max packet out: 32768 bytes
+ 2023-03-05 21:56:09,798 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 61 opened.
+ 2023-03-05 21:56:09,804 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 61] Sesch channel 61 request ok
+ 2023-03-05 21:56:10,058 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 61] EOF received (61)
+ 2023-03-05 21:56:10,058 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 61] EOF sent (61)
+ 2023-03-05 21:56:12,061 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 62] Max packet in: 32768 bytes
+ 2023-03-05 21:56:12,062 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 62] Max packet out: 32768 bytes
+ 2023-03-05 21:56:12,062 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 62 opened.
+ 2023-03-05 21:56:12,068 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 62] Sesch channel 62 request ok
+ 2023-03-05 21:56:12,338 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 62] EOF received (62)
+ 2023-03-05 21:56:12,339 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 62] EOF sent (62)
+ 2023-03-05 21:56:14,342 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 63] Max packet in: 32768 bytes
+ 2023-03-05 21:56:14,343 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 63] Max packet out: 32768 bytes
+ 2023-03-05 21:56:14,343 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 63 opened.
+ 2023-03-05 21:56:14,349 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 63] Sesch channel 63 request ok
+ 2023-03-05 21:56:14,611 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 63] EOF received (63)
+ 2023-03-05 21:56:14,612 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 63] EOF sent (63)
+ 2023-03-05 21:56:16,615 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 64] Max packet in: 32768 bytes
+ 2023-03-05 21:56:16,616 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 64] Max packet out: 32768 bytes
+ 2023-03-05 21:56:16,616 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 64 opened.
+ 2023-03-05 21:56:16,621 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 64] Sesch channel 64 request ok
+ 2023-03-05 21:56:16,902 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 64] EOF received (64)
+ 2023-03-05 21:56:16,903 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 64] EOF sent (64)
+ 2023-03-05 21:56:18,906 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 65] Max packet in: 32768 bytes
+ 2023-03-05 21:56:18,907 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 65] Max packet out: 32768 bytes
+ 2023-03-05 21:56:18,907 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 65 opened.
+ 2023-03-05 21:56:18,913 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 65] Sesch channel 65 request ok
+ 2023-03-05 21:56:19,184 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 65] EOF received (65)
+ 2023-03-05 21:56:19,185 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 65] EOF sent (65)
+ 2023-03-05 21:56:21,188 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 66] Max packet in: 32768 bytes
+ 2023-03-05 21:56:21,189 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 66] Max packet out: 32768 bytes
+ 2023-03-05 21:56:21,189 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 66 opened.
+ 2023-03-05 21:56:21,195 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 66] Sesch channel 66 request ok
+ 2023-03-05 21:56:21,464 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 66] EOF received (66)
+ 2023-03-05 21:56:21,465 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 66] EOF sent (66)
+ 2023-03-05 21:56:23,467 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 67] Max packet in: 32768 bytes
+ 2023-03-05 21:56:23,468 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 67] Max packet out: 32768 bytes
+ 2023-03-05 21:56:23,469 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 67 opened.
+ 2023-03-05 21:56:23,474 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 67] Sesch channel 67 request ok
+ 2023-03-05 21:56:23,750 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 67] EOF received (67)
+ 2023-03-05 21:56:23,751 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 67] EOF sent (67)
+ 2023-03-05 21:56:25,754 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 68] Max packet in: 32768 bytes
+ 2023-03-05 21:56:25,755 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 68] Max packet out: 32768 bytes
+ 2023-03-05 21:56:25,755 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 68 opened.
+ 2023-03-05 21:56:25,761 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 68] Sesch channel 68 request ok
+ 2023-03-05 21:56:26,012 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 68] EOF received (68)
+ 2023-03-05 21:56:26,012 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 68] EOF sent (68)
+ 2023-03-05 21:56:28,015 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 69] Max packet in: 32768 bytes
+ 2023-03-05 21:56:28,016 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 69] Max packet out: 32768 bytes
+ 2023-03-05 21:56:28,016 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 69 opened.
+ 2023-03-05 21:56:28,021 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 69] Sesch channel 69 request ok
+ 2023-03-05 21:56:28,271 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 69] EOF received (69)
+ 2023-03-05 21:56:28,271 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 69] EOF sent (69)
+ 2023-03-05 21:56:30,274 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 70] Max packet in: 32768 bytes
+ 2023-03-05 21:56:30,275 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 70] Max packet out: 32768 bytes
+ 2023-03-05 21:56:30,275 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 70 opened.
+ 2023-03-05 21:56:30,281 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 70] Sesch channel 70 request ok
+ 2023-03-05 21:56:30,525 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 70] EOF received (70)
+ 2023-03-05 21:56:30,526 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 70] EOF sent (70)
+ 2023-03-05 21:56:32,529 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 71] Max packet in: 32768 bytes
+ 2023-03-05 21:56:32,530 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 71] Max packet out: 32768 bytes
+ 2023-03-05 21:56:32,530 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 71 opened.
+ 2023-03-05 21:56:32,536 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 71] Sesch channel 71 request ok
+ 2023-03-05 21:56:32,789 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 71] EOF received (71)
+ 2023-03-05 21:56:32,789 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 71] EOF sent (71)
+ 2023-03-05 21:56:34,792 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 72] Max packet in: 32768 bytes
+ 2023-03-05 21:56:34,793 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 72] Max packet out: 32768 bytes
+ 2023-03-05 21:56:34,793 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 72 opened.
+ 2023-03-05 21:56:34,799 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 72] Sesch channel 72 request ok
+ 2023-03-05 21:56:35,054 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 72] EOF received (72)
+ 2023-03-05 21:56:35,054 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 72] EOF sent (72)
+ 2023-03-05 21:56:37,057 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 73] Max packet in: 32768 bytes
+ 2023-03-05 21:56:37,058 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 73] Max packet out: 32768 bytes
+ 2023-03-05 21:56:37,058 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 73 opened.
+ 2023-03-05 21:56:37,064 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 73] Sesch channel 73 request ok
+ 2023-03-05 21:56:37,338 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 73] EOF received (73)
+ 2023-03-05 21:56:37,338 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 73] EOF sent (73)
+ 2023-03-05 21:56:39,342 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 74] Max packet in: 32768 bytes
+ 2023-03-05 21:56:39,342 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 74] Max packet out: 32768 bytes
+ 2023-03-05 21:56:39,343 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 74 opened.
+ 2023-03-05 21:56:39,348 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 74] Sesch channel 74 request ok
+ 2023-03-05 21:56:39,617 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 74] EOF received (74)
+ 2023-03-05 21:56:39,617 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 74] EOF sent (74)
+ 2023-03-05 21:56:41,620 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 75] Max packet in: 32768 bytes
+ 2023-03-05 21:56:41,621 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 75] Max packet out: 32768 bytes
+ 2023-03-05 21:56:41,621 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 75 opened.
+ 2023-03-05 21:56:41,627 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 75] Sesch channel 75 request ok
+ 2023-03-05 21:56:41,899 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 75] EOF received (75)
+ 2023-03-05 21:56:41,899 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 75] EOF sent (75)
+ 2023-03-05 21:56:43,902 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 76] Max packet in: 32768 bytes
+ 2023-03-05 21:56:43,903 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 76] Max packet out: 32768 bytes
+ 2023-03-05 21:56:43,903 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 76 opened.
+ 2023-03-05 21:56:43,909 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 76] Sesch channel 76 request ok
+ 2023-03-05 21:56:44,155 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 76] EOF received (76)
+ 2023-03-05 21:56:44,156 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 76] EOF sent (76)
+ 2023-03-05 21:56:44,157 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/get_result.py', 'wb')
+ 2023-03-05 21:56:44,198 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/get_result.py', 'wb') -> 00000000
+ 2023-03-05 21:56:44,204 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 21:56:44,207 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/get_result.py')
+ 2023-03-05 21:56:44,208 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/mpi_getresult.py', 'wb')
+ 2023-03-05 21:56:44,210 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/mpi_getresult.py', 'wb') -> 00000000
+ 2023-03-05 21:56:44,211 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 21:56:44,213 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/mpi_getresult.py')
+ 2023-03-05 21:56:44,215 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/runGetResult.sh', 'wb')
+ 2023-03-05 21:56:44,217 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/runGetResult.sh', 'wb') -> 00000000
+ 2023-03-05 21:56:44,217 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 21:56:44,219 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/runGetResult.sh')
+ 2023-03-05 21:56:48,225 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 77] Max packet in: 32768 bytes
+ 2023-03-05 21:56:48,226 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 77] Max packet out: 32768 bytes
+ 2023-03-05 21:56:48,226 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 77 opened.
+ 2023-03-05 21:56:48,231 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 77] Sesch channel 77 request ok
+ 2023-03-05 21:56:48,231 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 77] EOF sent (77)
+ 2023-03-05 21:56:48,454 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 77] EOF received (77)
+ 2023-03-05 21:56:51,235 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 78] Max packet in: 32768 bytes
+ 2023-03-05 21:56:51,236 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 78] Max packet out: 32768 bytes
+ 2023-03-05 21:56:51,236 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 78 opened.
+ 2023-03-05 21:56:51,242 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 78] Sesch channel 78 request ok
+ 2023-03-05 21:56:51,597 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 78] EOF received (78)
+ 2023-03-05 21:56:51,598 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 78] EOF sent (78)
+ 2023-03-05 21:56:51,598 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 79] Max packet in: 32768 bytes
+ 2023-03-05 21:56:51,638 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 79] Max packet out: 32768 bytes
+ 2023-03-05 21:56:51,639 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 79 opened.
+ 2023-03-05 21:56:51,644 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 79] Sesch channel 79 request ok
+ 2023-03-05 21:56:51,901 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 79] EOF received (79)
+ 2023-03-05 21:56:51,902 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 79] EOF sent (79)
+ 2023-03-05 21:56:53,904 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 80] Max packet in: 32768 bytes
+ 2023-03-05 21:56:53,906 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 80] Max packet out: 32768 bytes
+ 2023-03-05 21:56:53,906 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 80 opened.
+ 2023-03-05 21:56:53,911 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 80] Sesch channel 80 request ok
+ 2023-03-05 21:56:54,178 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 80] EOF received (80)
+ 2023-03-05 21:56:54,179 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 80] EOF sent (80)
+ 2023-03-05 21:56:58,184 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/result/result.md')
+ 2023-03-05 21:56:58,186 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/result/result.md', 'rb')
+ 2023-03-05 21:56:58,188 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/result/result.md', 'rb') -> 00000000
+ 2023-03-05 21:56:58,193 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 21:56:58,194 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] sftp session closed.
+ 2023-03-05 22:01:27,173 - INFO - [文件：remote_server.py 第75行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 22:01:27,174 - INFO - [文件：remote_server.py 第76行 方法：sftpClient] - 2023-03-05 22:01:27
+ 2023-03-05 22:01:27,174 - INFO - [文件：remote_server.py 第77行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 22:01:27,174 - INFO - [文件：remote_server.py 第79行 方法：sftpClient] - 本地配体列表文件:/home/b519/wq/rlg/ledock/ligands/0/1/ligands
+ 2023-03-05 22:01:27,174 - INFO - [文件：remote_server.py 第88行 方法：sftpClient] - 服务器工作目录:/lustre/home/weizhiqiang/1
+ 2023-03-05 22:01:27,174 - INFO - [文件：remote_server.py 第92行 方法：sftpClient] - 服务器配体文件路径:/lustre/home/weizhiqiang/1/ligand
+ 2023-03-05 22:01:27,176 - DEBUG - [文件：transport.py 第1819行 方法：_log] - starting thread (client mode): 0x57759f10
+ 2023-03-05 22:01:27,176 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Local version/idstring: SSH-2.0-paramiko_2.8.1
+ 2023-03-05 22:01:27,332 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+ 2023-03-05 22:01:27,332 - INFO - [文件：transport.py 第1819行 方法：_log] - Connected (version 2.0, client OpenSSH_7.4)
+ 2023-03-05 22:01:27,337 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+ 2023-03-05 22:01:27,338 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Kex agreed: curve25519-sha256@libssh.org
+ 2023-03-05 22:01:27,338 - DEBUG - [文件：transport.py 第1819行 方法：_log] - HostKey agreed: ssh-ed25519
+ 2023-03-05 22:01:27,338 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Cipher agreed: aes128-ctr
+ 2023-03-05 22:01:27,338 - DEBUG - [文件：transport.py 第1819行 方法：_log] - MAC agreed: hmac-sha2-256
+ 2023-03-05 22:01:27,338 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Compression agreed: zlib@openssh.com
+ 2023-03-05 22:01:27,356 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+ 2023-03-05 22:01:27,357 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switch to new keys ...
+ 2023-03-05 22:01:27,358 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Adding ssh-ed25519 host key for 10.130.2.222: b'ab47368e1b22be21994c6373fcd51e78'
+ 2023-03-05 22:01:27,396 - DEBUG - [文件：transport.py 第1819行 方法：_log] - userauth is OK
+ 2023-03-05 22:01:27,456 - INFO - [文件：transport.py 第1819行 方法：_log] - Authentication (password) successful!
+ 2023-03-05 22:01:27,456 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on outbound compression ...
+ 2023-03-05 22:01:27,456 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on inbound compression ...
+ 2023-03-05 22:01:27,457 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet in: 32768 bytes
+ 2023-03-05 22:01:27,492 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Received global request "hostkeys-00@openssh.com"
+ 2023-03-05 22:01:27,492 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Rejecting "hostkeys-00@openssh.com" global request from server.
+ 2023-03-05 22:01:27,534 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet out: 32768 bytes
+ 2023-03-05 22:01:27,534 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 0 opened.
+ 2023-03-05 22:01:27,541 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Sesch channel 0 request ok
+ 2023-03-05 22:01:27,814 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] Opened sftp connection (server version 3)
+ 2023-03-05 22:01:27,815 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet in: 32768 bytes
+ 2023-03-05 22:01:27,816 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet out: 32768 bytes
+ 2023-03-05 22:01:27,816 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 1 opened.
+ 2023-03-05 22:01:27,821 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Sesch channel 1 request ok
+ 2023-03-05 22:01:28,092 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF received (1)
+ 2023-03-05 22:01:28,093 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF sent (1)
+ 2023-03-05 22:01:32,098 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/result/result.md')
+ 2023-03-05 22:01:32,101 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/result/result.md', 'rb')
+ 2023-03-05 22:01:32,103 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] open(b'/lustre/home/weizhiqiang/1/result/result.md', 'rb') -> 00000000
+ 2023-03-05 22:01:32,107 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] close(00000000)
+ 2023-03-05 22:01:32,109 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet in: 32768 bytes
+ 2023-03-05 22:01:32,110 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet out: 32768 bytes
+ 2023-03-05 22:01:32,110 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 2 opened.
+ 2023-03-05 22:01:32,116 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Sesch channel 2 request ok
+ 2023-03-05 22:01:32,116 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] EOF sent (2)
+ 2023-03-05 22:01:32,117 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] sftp session closed.
+ 2023-03-05 22:01:45,033 - INFO - [文件：remote_server.py 第75行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 22:01:45,033 - INFO - [文件：remote_server.py 第76行 方法：sftpClient] - 2023-03-05 22:01:45
+ 2023-03-05 22:01:45,033 - INFO - [文件：remote_server.py 第77行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 22:01:45,033 - INFO - [文件：remote_server.py 第79行 方法：sftpClient] - 本地配体列表文件:/home/b519/wq/rlg/ledock/ligands/0/1/ligands
+ 2023-03-05 22:01:45,033 - INFO - [文件：remote_server.py 第88行 方法：sftpClient] - 服务器工作目录:/lustre/home/weizhiqiang/1
+ 2023-03-05 22:01:45,033 - INFO - [文件：remote_server.py 第92行 方法：sftpClient] - 服务器配体文件路径:/lustre/home/weizhiqiang/1/ligand
+ 2023-03-05 22:01:45,035 - DEBUG - [文件：transport.py 第1819行 方法：_log] - starting thread (client mode): 0x6ee16f10
+ 2023-03-05 22:01:45,035 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Local version/idstring: SSH-2.0-paramiko_2.8.1
+ 2023-03-05 22:01:45,221 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+ 2023-03-05 22:01:45,222 - INFO - [文件：transport.py 第1819行 方法：_log] - Connected (version 2.0, client OpenSSH_7.4)
+ 2023-03-05 22:01:45,227 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+ 2023-03-05 22:01:45,227 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Kex agreed: curve25519-sha256@libssh.org
+ 2023-03-05 22:01:45,227 - DEBUG - [文件：transport.py 第1819行 方法：_log] - HostKey agreed: ssh-ed25519
+ 2023-03-05 22:01:45,227 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Cipher agreed: aes128-ctr
+ 2023-03-05 22:01:45,227 - DEBUG - [文件：transport.py 第1819行 方法：_log] - MAC agreed: hmac-sha2-256
+ 2023-03-05 22:01:45,227 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Compression agreed: zlib@openssh.com
+ 2023-03-05 22:01:45,246 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+ 2023-03-05 22:01:45,247 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switch to new keys ...
+ 2023-03-05 22:01:45,248 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Adding ssh-ed25519 host key for 10.130.2.222: b'ab47368e1b22be21994c6373fcd51e78'
+ 2023-03-05 22:01:45,287 - DEBUG - [文件：transport.py 第1819行 方法：_log] - userauth is OK
+ 2023-03-05 22:01:45,343 - INFO - [文件：transport.py 第1819行 方法：_log] - Authentication (password) successful!
+ 2023-03-05 22:01:45,343 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on outbound compression ...
+ 2023-03-05 22:01:45,343 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on inbound compression ...
+ 2023-03-05 22:01:45,344 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet in: 32768 bytes
+ 2023-03-05 22:01:45,381 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Received global request "hostkeys-00@openssh.com"
+ 2023-03-05 22:01:45,381 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Rejecting "hostkeys-00@openssh.com" global request from server.
+ 2023-03-05 22:01:45,422 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet out: 32768 bytes
+ 2023-03-05 22:01:45,422 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 0 opened.
+ 2023-03-05 22:01:45,428 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Sesch channel 0 request ok
+ 2023-03-05 22:01:45,686 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] Opened sftp connection (server version 3)
+ 2023-03-05 22:01:45,687 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet in: 32768 bytes
+ 2023-03-05 22:01:45,688 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet out: 32768 bytes
+ 2023-03-05 22:01:45,688 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 1 opened.
+ 2023-03-05 22:01:45,693 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Sesch channel 1 request ok
+ 2023-03-05 22:01:45,964 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF received (1)
+ 2023-03-05 22:01:45,964 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF sent (1)
+ 2023-03-05 22:01:49,970 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/result/result.md')
+ 2023-03-05 22:01:49,972 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet in: 32768 bytes
+ 2023-03-05 22:01:49,973 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet out: 32768 bytes
+ 2023-03-05 22:01:49,973 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 2 opened.
+ 2023-03-05 22:01:49,978 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Sesch channel 2 request ok
+ 2023-03-05 22:01:49,978 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] EOF sent (2)
+ 2023-03-05 22:01:49,979 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] sftp session closed.
+ 2023-03-05 22:02:06,148 - INFO - [文件：remote_server.py 第75行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 22:02:06,149 - INFO - [文件：remote_server.py 第76行 方法：sftpClient] - 2023-03-05 22:02:06
+ 2023-03-05 22:02:06,149 - INFO - [文件：remote_server.py 第77行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 22:02:06,149 - INFO - [文件：remote_server.py 第79行 方法：sftpClient] - 本地配体列表文件:/home/b519/wq/rlg/ledock/ligands/0/1/ligands
+ 2023-03-05 22:02:06,149 - INFO - [文件：remote_server.py 第88行 方法：sftpClient] - 服务器工作目录:/lustre/home/weizhiqiang/1
+ 2023-03-05 22:02:06,149 - INFO - [文件：remote_server.py 第92行 方法：sftpClient] - 服务器配体文件路径:/lustre/home/weizhiqiang/1/ligand
+ 2023-03-05 22:02:06,150 - DEBUG - [文件：transport.py 第1819行 方法：_log] - starting thread (client mode): 0x35b01f10
+ 2023-03-05 22:02:06,151 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Local version/idstring: SSH-2.0-paramiko_2.8.1
+ 2023-03-05 22:02:06,336 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+ 2023-03-05 22:02:06,337 - INFO - [文件：transport.py 第1819行 方法：_log] - Connected (version 2.0, client OpenSSH_7.4)
+ 2023-03-05 22:02:06,342 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+ 2023-03-05 22:02:06,342 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Kex agreed: curve25519-sha256@libssh.org
+ 2023-03-05 22:02:06,342 - DEBUG - [文件：transport.py 第1819行 方法：_log] - HostKey agreed: ssh-ed25519
+ 2023-03-05 22:02:06,342 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Cipher agreed: aes128-ctr
+ 2023-03-05 22:02:06,342 - DEBUG - [文件：transport.py 第1819行 方法：_log] - MAC agreed: hmac-sha2-256
+ 2023-03-05 22:02:06,342 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Compression agreed: zlib@openssh.com
+ 2023-03-05 22:02:06,361 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+ 2023-03-05 22:02:06,362 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switch to new keys ...
+ 2023-03-05 22:02:06,363 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Adding ssh-ed25519 host key for 10.130.2.222: b'ab47368e1b22be21994c6373fcd51e78'
+ 2023-03-05 22:02:06,403 - DEBUG - [文件：transport.py 第1819行 方法：_log] - userauth is OK
+ 2023-03-05 22:02:06,459 - INFO - [文件：transport.py 第1819行 方法：_log] - Authentication (password) successful!
+ 2023-03-05 22:02:06,459 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on outbound compression ...
+ 2023-03-05 22:02:06,459 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on inbound compression ...
+ 2023-03-05 22:02:06,460 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet in: 32768 bytes
+ 2023-03-05 22:02:06,500 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Received global request "hostkeys-00@openssh.com"
+ 2023-03-05 22:02:06,500 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Rejecting "hostkeys-00@openssh.com" global request from server.
+ 2023-03-05 22:02:06,542 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet out: 32768 bytes
+ 2023-03-05 22:02:06,542 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 0 opened.
+ 2023-03-05 22:02:06,546 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Sesch channel 0 request ok
+ 2023-03-05 22:02:06,806 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] Opened sftp connection (server version 3)
+ 2023-03-05 22:02:06,807 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet in: 32768 bytes
+ 2023-03-05 22:02:06,808 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet out: 32768 bytes
+ 2023-03-05 22:02:06,808 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 1 opened.
+ 2023-03-05 22:02:06,814 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Sesch channel 1 request ok
+ 2023-03-05 22:02:07,073 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF received (1)
+ 2023-03-05 22:02:07,073 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF sent (1)
+ 2023-03-05 22:02:11,079 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/result/result.md')
+ 2023-03-05 22:02:11,081 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet in: 32768 bytes
+ 2023-03-05 22:02:11,082 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet out: 32768 bytes
+ 2023-03-05 22:02:11,082 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 2 opened.
+ 2023-03-05 22:02:11,087 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Sesch channel 2 request ok
+ 2023-03-05 22:02:11,088 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] EOF sent (2)
+ 2023-03-05 22:02:11,088 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] sftp session closed.
+ 2023-03-05 22:03:20,499 - INFO - [文件：remote_server.py 第75行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 22:03:20,499 - INFO - [文件：remote_server.py 第76行 方法：sftpClient] - 2023-03-05 22:03:20
+ 2023-03-05 22:03:20,500 - INFO - [文件：remote_server.py 第77行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 22:03:20,500 - INFO - [文件：remote_server.py 第79行 方法：sftpClient] - 本地配体列表文件:/home/b519/wq/rlg/ledock/ligands/0/1/ligands
+ 2023-03-05 22:03:20,500 - INFO - [文件：remote_server.py 第88行 方法：sftpClient] - 服务器工作目录:/lustre/home/weizhiqiang/1
+ 2023-03-05 22:03:20,500 - INFO - [文件：remote_server.py 第92行 方法：sftpClient] - 服务器配体文件路径:/lustre/home/weizhiqiang/1/ligand
+ 2023-03-05 22:03:20,501 - DEBUG - [文件：transport.py 第1819行 方法：_log] - starting thread (client mode): 0xe2dc6f10
+ 2023-03-05 22:03:20,502 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Local version/idstring: SSH-2.0-paramiko_2.8.1
+ 2023-03-05 22:03:20,691 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+ 2023-03-05 22:03:20,691 - INFO - [文件：transport.py 第1819行 方法：_log] - Connected (version 2.0, client OpenSSH_7.4)
+ 2023-03-05 22:03:20,696 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+ 2023-03-05 22:03:20,697 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Kex agreed: curve25519-sha256@libssh.org
+ 2023-03-05 22:03:20,697 - DEBUG - [文件：transport.py 第1819行 方法：_log] - HostKey agreed: ssh-ed25519
+ 2023-03-05 22:03:20,697 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Cipher agreed: aes128-ctr
+ 2023-03-05 22:03:20,697 - DEBUG - [文件：transport.py 第1819行 方法：_log] - MAC agreed: hmac-sha2-256
+ 2023-03-05 22:03:20,697 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Compression agreed: zlib@openssh.com
+ 2023-03-05 22:03:20,710 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+ 2023-03-05 22:03:20,711 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switch to new keys ...
+ 2023-03-05 22:03:20,711 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Adding ssh-ed25519 host key for 10.130.2.222: b'ab47368e1b22be21994c6373fcd51e78'
+ 2023-03-05 22:03:20,750 - DEBUG - [文件：transport.py 第1819行 方法：_log] - userauth is OK
+ 2023-03-05 22:03:20,810 - INFO - [文件：transport.py 第1819行 方法：_log] - Authentication (password) successful!
+ 2023-03-05 22:03:20,810 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on outbound compression ...
+ 2023-03-05 22:03:20,810 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on inbound compression ...
+ 2023-03-05 22:03:20,811 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet in: 32768 bytes
+ 2023-03-05 22:03:20,838 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Received global request "hostkeys-00@openssh.com"
+ 2023-03-05 22:03:20,838 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Rejecting "hostkeys-00@openssh.com" global request from server.
+ 2023-03-05 22:03:20,882 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet out: 32768 bytes
+ 2023-03-05 22:03:20,882 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 0 opened.
+ 2023-03-05 22:03:20,886 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Sesch channel 0 request ok
+ 2023-03-05 22:03:21,144 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] Opened sftp connection (server version 3)
+ 2023-03-05 22:03:21,144 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet in: 32768 bytes
+ 2023-03-05 22:03:21,145 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet out: 32768 bytes
+ 2023-03-05 22:03:21,146 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 1 opened.
+ 2023-03-05 22:03:21,151 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Sesch channel 1 request ok
+ 2023-03-05 22:03:21,411 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF received (1)
+ 2023-03-05 22:03:21,412 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF sent (1)
+ 2023-03-05 22:03:25,417 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/result/result.md')
+ 2023-03-05 22:03:25,419 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet in: 32768 bytes
+ 2023-03-05 22:03:25,420 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet out: 32768 bytes
+ 2023-03-05 22:03:25,420 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 2 opened.
+ 2023-03-05 22:03:25,426 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Sesch channel 2 request ok
+ 2023-03-05 22:03:25,426 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] EOF sent (2)
+ 2023-03-05 22:03:25,426 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] sftp session closed.
+ 2023-03-05 22:07:02,671 - INFO - [文件：remote_server.py 第75行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 22:07:02,671 - INFO - [文件：remote_server.py 第76行 方法：sftpClient] - 2023-03-05 22:07:02
+ 2023-03-05 22:07:02,671 - INFO - [文件：remote_server.py 第77行 方法：sftpClient] - ====================================================================================================
+ 2023-03-05 22:07:02,671 - INFO - [文件：remote_server.py 第79行 方法：sftpClient] - 本地配体列表文件:/home/b519/wq/rlg/ledock/ligands/0/1/ligands
+ 2023-03-05 22:07:02,671 - INFO - [文件：remote_server.py 第88行 方法：sftpClient] - 服务器工作目录:/lustre/home/weizhiqiang/1
+ 2023-03-05 22:07:02,671 - INFO - [文件：remote_server.py 第92行 方法：sftpClient] - 服务器配体文件路径:/lustre/home/weizhiqiang/1/ligand
+ 2023-03-05 22:07:02,673 - DEBUG - [文件：transport.py 第1819行 方法：_log] - starting thread (client mode): 0x21bc2f10
+ 2023-03-05 22:07:02,673 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Local version/idstring: SSH-2.0-paramiko_2.8.1
+ 2023-03-05 22:07:02,859 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+ 2023-03-05 22:07:02,859 - INFO - [文件：transport.py 第1819行 方法：_log] - Connected (version 2.0, client OpenSSH_7.4)
+ 2023-03-05 22:07:02,865 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc', 'blowfish-cbc', 'cast128-cbc', '3des-cbc'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+ 2023-03-05 22:07:02,865 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Kex agreed: curve25519-sha256@libssh.org
+ 2023-03-05 22:07:02,865 - DEBUG - [文件：transport.py 第1819行 方法：_log] - HostKey agreed: ssh-ed25519
+ 2023-03-05 22:07:02,865 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Cipher agreed: aes128-ctr
+ 2023-03-05 22:07:02,865 - DEBUG - [文件：transport.py 第1819行 方法：_log] - MAC agreed: hmac-sha2-256
+ 2023-03-05 22:07:02,865 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Compression agreed: zlib@openssh.com
+ 2023-03-05 22:07:02,883 - DEBUG - [文件：transport.py 第1819行 方法：_log] - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+ 2023-03-05 22:07:02,884 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switch to new keys ...
+ 2023-03-05 22:07:02,884 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Adding ssh-ed25519 host key for 10.130.2.222: b'ab47368e1b22be21994c6373fcd51e78'
+ 2023-03-05 22:07:02,923 - DEBUG - [文件：transport.py 第1819行 方法：_log] - userauth is OK
+ 2023-03-05 22:07:02,983 - INFO - [文件：transport.py 第1819行 方法：_log] - Authentication (password) successful!
+ 2023-03-05 22:07:02,983 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on outbound compression ...
+ 2023-03-05 22:07:02,983 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Switching on inbound compression ...
+ 2023-03-05 22:07:02,983 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet in: 32768 bytes
+ 2023-03-05 22:07:03,012 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Received global request "hostkeys-00@openssh.com"
+ 2023-03-05 22:07:03,012 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Rejecting "hostkeys-00@openssh.com" global request from server.
+ 2023-03-05 22:07:03,054 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Max packet out: 32768 bytes
+ 2023-03-05 22:07:03,054 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 0 opened.
+ 2023-03-05 22:07:03,060 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 0] Sesch channel 0 request ok
+ 2023-03-05 22:07:03,334 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] Opened sftp connection (server version 3)
+ 2023-03-05 22:07:03,335 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet in: 32768 bytes
+ 2023-03-05 22:07:03,336 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Max packet out: 32768 bytes
+ 2023-03-05 22:07:03,336 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 1 opened.
+ 2023-03-05 22:07:03,341 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] Sesch channel 1 request ok
+ 2023-03-05 22:07:03,602 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF received (1)
+ 2023-03-05 22:07:03,602 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 1] EOF sent (1)
+ 2023-03-05 22:07:07,607 - DEBUG - [文件：sftp.py 第158行 方法：_log] - [chan 0] stat(b'/lustre/home/weizhiqiang/1/result/result.md')
+ 2023-03-05 22:07:07,609 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet in: 32768 bytes
+ 2023-03-05 22:07:07,610 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Max packet out: 32768 bytes
+ 2023-03-05 22:07:07,610 - DEBUG - [文件：transport.py 第1819行 方法：_log] - Secsh channel 2 opened.
+ 2023-03-05 22:07:07,615 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] Sesch channel 2 request ok
+ 2023-03-05 22:07:07,616 - DEBUG - [文件：channel.py 第1212行 方法：_log] - [chan 2] EOF sent (2)
+ 2023-03-05 22:07:07,616 - INFO - [文件：sftp.py 第158行 方法：_log] - [chan 0] sftp session closed.
